@@ -8,7 +8,10 @@ class App extends React.Component {
 		super(props);
 
 		this.state = {
-			data: [ 'what', 'ever' ]
+			data: [
+				{ date: '01/01/2019', description: 'Skyba', Amount: 49, category: 'Gym' },
+				{ date: '04/04/2019', description: 'Feedfish', Amount: 60, category: 'Restaurants' }
+			]
 		};
 	}
 
@@ -17,7 +20,7 @@ class App extends React.Component {
 			<div>
 				<NavBar />
 				<h1>Hello World</h1>
-				<TransactionsList />
+				<TransactionsList transactions={this.state.data} />
 				<TransactionsGraph />
 			</div>
 		);

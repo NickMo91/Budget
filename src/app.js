@@ -21,7 +21,7 @@ class App extends React.Component {
 				<svg />
 				<h1>Hello World</h1>
 				<TransactionsList transactions={this.state.data} />
-				<TransactionsGraph data={this.state.data} />
+				{/* <TransactionsGraph data={this.state.data} /> */}
 				<FileInputForm />
 			</div>
 		);

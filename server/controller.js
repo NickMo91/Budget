@@ -38,6 +38,7 @@ exports.importFile = (req, res) => {
     .on('data', function(data) {
       let transformedData = {
         _id: new mongoose.Types.ObjectId(),
+        date: data['Date'],
         amount: data['Amount'],
         description: data['Description'],
         category: data['Category'],
@@ -62,6 +63,16 @@ exports.getTransactions = (req, res) => {
     if (err) {
       console.log(err);
       res.sendStatus(500);
-    } else res.send(result);
+    } else {
+      let formattedResult = result.slice();
+      formattedResult.map(txn => {
+        txn.amount = txn.amount + 1;
+        console.log(txn);
+        console.log('');
+
+        return txn;
+      });
+      res.send(formattedResult);
+    }
   });
 };

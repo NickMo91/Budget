@@ -1,12 +1,23 @@
-import React from 'react';
-import * as d3 from 'd3';
+import React, { Component } from 'react';
+import createDb from '../graph.js';
 
-const TransactionsGraph = () => {
-	return (
-		<div>
-			<h1>this is the TransactionsGraph!</h1>
-		</div>
-	);
-};
+export class TransactionsGraph extends Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {};
+	}
+
+	componentDidMount() {
+		createDb(this.props);
+	}
+
+	componentDidUpdate() {
+		createDb(this.props);
+	}
+	render() {
+		return <div className="graph" />;
+	}
+}
 
 export default TransactionsGraph;

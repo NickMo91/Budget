@@ -1,5178 +1,6329 @@
 const data = [
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f29e6d',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Vinte',
-		_id: '5d9d20dc9eb1448067f29e6f',
-		amount: 1011.9999999999999,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Feedfish',
-		_id: '5d9d20dc9eb1448067f29e6e',
-		amount: 6080,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29e70',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Avaveo',
-		_id: '5d9d20dc9eb1448067f29e71',
-		amount: 303,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Feedfish',
-		_id: '5d9d20dc9eb1448067f29e72',
-		amount: 942,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29e73',
-		amount: 12100,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29e74',
-		amount: 598,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29e75',
-		amount: 8349,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29e76',
-		amount: 3254.9999999999995,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brightdog',
-		_id: '5d9d20dc9eb1448067f29e77',
-		amount: 250,
-		category: 'ATM Fee',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trilith',
-		_id: '5d9d20dc9eb1448067f29e78',
-		amount: 8000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f29e79',
-		amount: 2250,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'InnoZ',
-		_id: '5d9d20dc9eb1448067f29e7a',
-		amount: 1127,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomcast',
-		_id: '5d9d20dc9eb1448067f29e7b',
-		amount: 2900,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomcast',
-		_id: '5d9d20dc9eb1448067f29e7c',
-		amount: 1500,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomcast',
-		_id: '5d9d20dc9eb1448067f29e7d',
-		amount: 2700,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29e7e',
-		amount: 10725,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29e7f',
-		amount: 983,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Reallinks',
-		_id: '5d9d20dc9eb1448067f29e80',
-		amount: 3985,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Meemm',
-		_id: '5d9d20dc9eb1448067f29e82',
-		amount: 5414,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29e81',
-		amount: 2551,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Wordify',
-		_id: '5d9d20dc9eb1448067f29e83',
-		amount: 1010,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29e84',
-		amount: 20000,
-		category: 'Vacation',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29e85',
-		amount: 1171,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trunyx',
-		_id: '5d9d20dc9eb1448067f29e86',
-		amount: 569,
-		category: 'Coffee Shops',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rhyzio',
-		_id: '5d9d20dc9eb1448067f29e87',
-		amount: 1019.9999999999999,
-		category: 'Groceries',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dazzlesphere',
-		_id: '5d9d20dc9eb1448067f29e88',
-		amount: 5105,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobug',
-		_id: '5d9d20dc9eb1448067f29e89',
-		amount: 1350,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Cogidoo',
-		_id: '5d9d20dc9eb1448067f29e8a',
-		amount: 850,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quatz',
-		_id: '5d9d20dc9eb1448067f29e8b',
-		amount: 24796,
-		category: 'Air Travel',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photofeed',
-		_id: '5d9d20dc9eb1448067f29e8c',
-		amount: 828.9999999999999,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Avaveo',
-		_id: '5d9d20dc9eb1448067f29e8d',
-		amount: 303,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29e8e',
-		amount: 162606,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29e8f',
-		amount: 10725,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29e90',
-		amount: 1418,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29e91',
-		amount: 1570,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicblab',
-		_id: '5d9d20dc9eb1448067f29e92',
-		amount: 1388,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodel',
-		_id: '5d9d20dc9eb1448067f29e93',
-		amount: 11270,
-		category: 'Clothing',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yozio',
-		_id: '5d9d20dc9eb1448067f29e94',
-		amount: 758,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Wordify',
-		_id: '5d9d20dc9eb1448067f29e95',
-		amount: 2300,
-		category: 'Amusement',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Layo',
-		_id: '5d9d20dc9eb1448067f29e96',
-		amount: 516,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudoo',
-		_id: '5d9d20dc9eb1448067f29e97',
-		amount: 453,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Pixope',
-		_id: '5d9d20dc9eb1448067f29e98',
-		amount: 7520,
-		category: 'Entertainment',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'InnoZ',
-		_id: '5d9d20dc9eb1448067f29e99',
-		amount: 1797,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f29e9b',
-		amount: 1622,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gevee',
-		_id: '5d9d20dc9eb1448067f29e9a',
-		amount: 765,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29e9c',
-		amount: 792,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Feedfish',
-		_id: '5d9d20dc9eb1448067f29e9d',
-		amount: 942,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realmix',
-		_id: '5d9d20dc9eb1448067f29e9e',
-		amount: 1700,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rhyzio',
-		_id: '5d9d20dc9eb1448067f29e9f',
-		amount: 1670,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yozio',
-		_id: '5d9d20dc9eb1448067f29ea0',
-		amount: 758,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29ea1',
-		amount: 5910,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dabtype',
-		_id: '5d9d20dc9eb1448067f29ea2',
-		amount: 3372,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ea3',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'InnoZ',
-		_id: '5d9d20dc9eb1448067f29ea4',
-		amount: 974,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Vinder',
-		_id: '5d9d20dc9eb1448067f29ea5',
-		amount: 2076,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yabox',
-		_id: '5d9d20dc9eb1448067f29ea6',
-		amount: 3300,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ea7',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Tagcat',
-		_id: '5d9d20dc9eb1448067f29ea8',
-		amount: 9219,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Feedfish',
-		_id: '5d9d20dc9eb1448067f29ea9',
-		amount: 1089,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f29eaa',
-		amount: 1099,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Mybuzz',
-		_id: '5d9d20dc9eb1448067f29eab',
-		amount: 1627,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Devpoint',
-		_id: '5d9d20dc9eb1448067f29eac',
-		amount: 637,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brainlounge',
-		_id: '5d9d20dc9eb1448067f29ead',
-		amount: 14015,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quatz',
-		_id: '5d9d20dc9eb1448067f29eae',
-		amount: 3585,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29eaf',
-		amount: 1189,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f29eb0',
-		amount: 1555,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29eb1',
-		amount: 158034,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Wordify',
-		_id: '5d9d20dc9eb1448067f29eb2',
-		amount: 595,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yozio',
-		_id: '5d9d20dc9eb1448067f29eb3',
-		amount: 360,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f29eb4',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29eb5',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29eb6',
-		amount: 1571,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Latz',
-		_id: '5d9d20dc9eb1448067f29eb7',
-		amount: 2556,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudoo',
-		_id: '5d9d20dc9eb1448067f29eb8',
-		amount: 1316,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29eb9',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29eba',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29ebb',
-		amount: 12100,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Omba',
-		_id: '5d9d20dc9eb1448067f29ebc',
-		amount: 5300,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yozio',
-		_id: '5d9d20dc9eb1448067f29ebd',
-		amount: 360,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ebe',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ebf',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29ec0',
-		amount: 8349,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Twimbo',
-		_id: '5d9d20dc9eb1448067f29ec1',
-		amount: 3403,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topiczoom',
-		_id: '5d9d20dc9eb1448067f29ec2',
-		amount: 7406,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyope',
-		_id: '5d9d20dc9eb1448067f29ec3',
-		amount: 1723.9999999999998,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29ec4',
-		amount: 4500,
-		category: 'Amusement',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innotype',
-		_id: '5d9d20dc9eb1448067f29ec5',
-		amount: 5787,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eadel',
-		_id: '5d9d20dc9eb1448067f29ec6',
-		amount: 3609.0000000000005,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ec7',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29ec8',
-		amount: 1005.0000000000001,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ec9',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobug',
-		_id: '5d9d20dc9eb1448067f29eca',
-		amount: 575,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Podcat',
-		_id: '5d9d20dc9eb1448067f29ecb',
-		amount: 125,
-		category: 'Office Supplies',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29ecc',
-		amount: 27500,
-		category: 'Vacation',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29ecd',
-		amount: 529,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Vinder',
-		_id: '5d9d20dc9eb1448067f29ece',
-		amount: 2392,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29ecf',
-		amount: 897.0000000000001,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eidel',
-		_id: '5d9d20dc9eb1448067f29ed0',
-		amount: 1702,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29ed1',
-		amount: 3196,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29ed2',
-		amount: 513,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dablist',
-		_id: '5d9d20dc9eb1448067f29ed3',
-		amount: 3333,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabcube',
-		_id: '5d9d20dc9eb1448067f29ed4',
-		amount: 2847,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eayo',
-		_id: '5d9d20dc9eb1448067f29ed5',
-		amount: 5959,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Flipstorm',
-		_id: '5d9d20dc9eb1448067f29ed6',
-		amount: 350,
-		category: 'ATM Fee',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Flipstorm',
-		_id: '5d9d20dc9eb1448067f29ed7',
-		amount: 10000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yamia',
-		_id: '5d9d20dc9eb1448067f29ed8',
-		amount: 3000,
-		category: 'Parking',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigaclub',
-		_id: '5d9d20dc9eb1448067f29ed9',
-		amount: 1825,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoyo',
-		_id: '5d9d20dc9eb1448067f29eda',
-		amount: 208,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Myworks',
-		_id: '5d9d20dc9eb1448067f29edb',
-		amount: 2797,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgewire',
-		_id: '5d9d20dc9eb1448067f29edc',
-		amount: 1614.9999999999998,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f29edd',
-		amount: 735,
-		category: 'Office Supplies',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29ede',
-		amount: 3681,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomlounge',
-		_id: '5d9d20dc9eb1448067f29edf',
-		amount: 2973,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29ee0',
-		amount: 960,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29ee1',
-		amount: 730,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f29ee2',
-		amount: 1472,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Ooba',
-		_id: '5d9d20dc9eb1448067f29ee3',
-		amount: 3308,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jetpulse',
-		_id: '5d9d20dc9eb1448067f29ee4',
-		amount: 3354.9999999999995,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Flipstorm',
-		_id: '5d9d20dc9eb1448067f29ee5',
-		amount: 350,
-		category: 'ATM Fee',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Flipstorm',
-		_id: '5d9d20dc9eb1448067f29ee6',
-		amount: 10000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29ee7',
-		amount: 158033,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29ee8',
-		amount: 965,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29ee9',
-		amount: 200,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29eea',
-		amount: 1118,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Twitterlist',
-		_id: '5d9d20dc9eb1448067f29eeb',
-		amount: 5340,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skaboo',
-		_id: '5d9d20dc9eb1448067f29eec',
-		amount: 8387,
-		category: 'Vacation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skaboo',
-		_id: '5d9d20dc9eb1448067f29eed',
-		amount: 2000,
-		category: 'Vacation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photojam',
-		_id: '5d9d20dc9eb1448067f29eee',
-		amount: 11208,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trilith',
-		_id: '5d9d20dc9eb1448067f29eef',
-		amount: 3115,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Thoughtbeat',
-		_id: '5d9d20dc9eb1448067f29ef0',
-		amount: 4043,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Roombo',
-		_id: '5d9d20dc9eb1448067f29ef1',
-		amount: 2709,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ef2',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29ef3',
-		amount: 9379,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eazzy',
-		_id: '5d9d20dc9eb1448067f29ef4',
-		amount: 6088,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ef5',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyope',
-		_id: '5d9d20dc9eb1448067f29ef6',
-		amount: 10000,
-		category: 'Mortgage & Rent',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Katz',
-		_id: '5d9d20dc9eb1448067f29ef7',
-		amount: 1305,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Teklist',
-		_id: '5d9d20dc9eb1448067f29ef8',
-		amount: 400,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29ef9',
-		amount: 10725,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29efa',
-		amount: 1300,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skiptube',
-		_id: '5d9d20dc9eb1448067f29efb',
-		amount: 3800,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skiptube',
-		_id: '5d9d20dc9eb1448067f29efc',
-		amount: 10200,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicstorm',
-		_id: '5d9d20dc9eb1448067f29efd',
-		amount: 4620,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Twitterwire',
-		_id: '5d9d20dc9eb1448067f29efe',
-		amount: 3589,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29eff',
-		amount: 500,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f00',
-		amount: 552,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f29f01',
-		amount: 1099,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29f02',
-		amount: 158034,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Rooxo',
-		_id: '5d9d20dc9eb1448067f29f03',
-		amount: 1140,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f29f04',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f05',
-		amount: 877.9999999999999,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gevee',
-		_id: '5d9d20dc9eb1448067f29f06',
-		amount: 490.00000000000006,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Flashdog',
-		_id: '5d9d20dc9eb1448067f29f07',
-		amount: 436.00000000000006,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Omba',
-		_id: '5d9d20dc9eb1448067f29f08',
-		amount: 6060,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicblab',
-		_id: '5d9d20dc9eb1448067f29f09',
-		amount: 1410,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f0a',
-		amount: 3500,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f0b',
-		amount: 5000,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gevee',
-		_id: '5d9d20dc9eb1448067f29f0c',
-		amount: 490.00000000000006,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f0d',
-		amount: 8349,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f0e',
-		amount: 1377,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29f0f',
-		amount: 12100,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f29f10',
-		amount: 2499,
-		category: 'Entertainment',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29f11',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Wordify',
-		_id: '5d9d20dc9eb1448067f29f12',
-		amount: 499,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f13',
-		amount: 5000,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gevee',
-		_id: '5d9d20dc9eb1448067f29f14',
-		amount: 490.00000000000006,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29f15',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Fatz',
-		_id: '5d9d20dc9eb1448067f29f16',
-		amount: 85249,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f17',
-		amount: 10224,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Npath',
-		_id: '5d9d20dc9eb1448067f29f18',
-		amount: 3005,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Cogidoo',
-		_id: '5d9d20dc9eb1448067f29f19',
-		amount: 3624,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Ainyx',
-		_id: '5d9d20dc9eb1448067f29f1a',
-		amount: 34141,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Ainyx',
-		_id: '5d9d20dc9eb1448067f29f1b',
-		amount: 27695,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f1c',
-		amount: 269,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Meevee',
-		_id: '5d9d20dc9eb1448067f29f1d',
-		amount: 1414,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f1e',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f1f',
-		amount: 1347,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29f20',
-		amount: 158033,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Gevee',
-		_id: '5d9d20dc9eb1448067f29f21',
-		amount: 490.00000000000006,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rhyzio',
-		_id: '5d9d20dc9eb1448067f29f22',
-		amount: 994.9999999999999,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rhyzio',
-		_id: '5d9d20dc9eb1448067f29f23',
-		amount: 1075,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brainverse',
-		_id: '5d9d20dc9eb1448067f29f24',
-		amount: 5494,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Centidel',
-		_id: '5d9d20dc9eb1448067f29f25',
-		amount: 9375,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicblab',
-		_id: '5d9d20dc9eb1448067f29f26',
-		amount: 2798,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f27',
-		amount: 2503,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f28',
-		amount: 28297.000000000004,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Voomm',
-		_id: '5d9d20dc9eb1448067f29f29',
-		amount: 16000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabcube',
-		_id: '5d9d20dc9eb1448067f29f2a',
-		amount: 3500,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trunyx',
-		_id: '5d9d20dc9eb1448067f29f2b',
-		amount: 1413,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quire',
-		_id: '5d9d20dc9eb1448067f29f2c',
-		amount: 1601.0000000000002,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Blogtags',
-		_id: '5d9d20dc9eb1448067f29f2d',
-		amount: 1088,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f2e',
-		amount: 798,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f2f',
-		amount: 927.9999999999999,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dablist',
-		_id: '5d9d20dc9eb1448067f29f30',
-		amount: 7620,
-		category: 'Electronics & Software',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dablist',
-		_id: '5d9d20dc9eb1448067f29f31',
-		amount: 70768,
-		category: 'Electronics & Software',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trunyx',
-		_id: '5d9d20dc9eb1448067f29f32',
-		amount: 532,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f33',
-		amount: 3600,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Pixoboo',
-		_id: '5d9d20dc9eb1448067f29f34',
-		amount: 5564,
-		category: 'Office Supplies',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eazzy',
-		_id: '5d9d20dc9eb1448067f29f35',
-		amount: 2324,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f36',
-		amount: 4657,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Tazz',
-		_id: '5d9d20dc9eb1448067f29f37',
-		amount: 13603,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Geba',
-		_id: '5d9d20dc9eb1448067f29f38',
-		amount: 105608.99999999999,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f39',
-		amount: 2564,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Browsebug',
-		_id: '5d9d20dc9eb1448067f29f3a',
-		amount: 1850,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomcast',
-		_id: '5d9d20dc9eb1448067f29f3b',
-		amount: 4499,
-		category: 'Internet',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skiba',
-		_id: '5d9d20dc9eb1448067f29f3c',
-		amount: 9192,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youtags',
-		_id: '5d9d20dc9eb1448067f29f3d',
-		amount: 17316,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f3e',
-		amount: 1398,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Omba',
-		_id: '5d9d20dc9eb1448067f29f3f',
-		amount: 4400,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29f40',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29f41',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoyo',
-		_id: '5d9d20dc9eb1448067f29f42',
-		amount: 245.00000000000003,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f43',
-		amount: 1900,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f44',
-		amount: 5000,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jayo',
-		_id: '5d9d20dc9eb1448067f29f45',
-		amount: 2817,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f46',
-		amount: 2394,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f29f47',
-		amount: 1099,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Vidoo',
-		_id: '5d9d20dc9eb1448067f29f48',
-		amount: 2999,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f49',
-		amount: 798,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Browsetype',
-		_id: '5d9d20dc9eb1448067f29f4a',
-		amount: 762,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyope',
-		_id: '5d9d20dc9eb1448067f29f4b',
-		amount: 2300,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f4c',
-		amount: 6000,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29f4d',
-		amount: 158034,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f4e',
-		amount: 1500,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Wordify',
-		_id: '5d9d20dc9eb1448067f29f4f',
-		amount: 6210,
-		category: 'Amusement',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f50',
-		amount: 902.9999999999999,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Tanoodle',
-		_id: '5d9d20dc9eb1448067f29f51',
-		amount: 3526,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Pixoboo',
-		_id: '5d9d20dc9eb1448067f29f52',
-		amount: 7980,
-		category: 'Clothing',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29f53',
-		amount: 2658,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Lazz',
-		_id: '5d9d20dc9eb1448067f29f54',
-		amount: 10301,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f29f55',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f29f56',
-		amount: 22408,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoloo',
-		_id: '5d9d20dc9eb1448067f29f57',
-		amount: 5496,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Blogtags',
-		_id: '5d9d20dc9eb1448067f29f58',
-		amount: 952.9999999999999,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f59',
-		amount: 3100,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f5a',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f5b',
-		amount: 6105,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Livefish',
-		_id: '5d9d20dc9eb1448067f29f5c',
-		amount: 1197,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicblab',
-		_id: '5d9d20dc9eb1448067f29f5d',
-		amount: 1443,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f5e',
-		amount: 1197,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brainverse',
-		_id: '5d9d20dc9eb1448067f29f5f',
-		amount: 1195,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabcube',
-		_id: '5d9d20dc9eb1448067f29f60',
-		amount: 1717.0000000000002,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Lajo',
-		_id: '5d9d20dc9eb1448067f29f61',
-		amount: 34295,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f29f62',
-		amount: 1742.0000000000002,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29f63',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f64',
-		amount: 8349,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f29f65',
-		amount: 1251,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Kwideo',
-		_id: '5d9d20dc9eb1448067f29f66',
-		amount: 5000,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29f67',
-		amount: 12100,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Thoughtsphere',
-		_id: '5d9d20dc9eb1448067f29f68',
-		amount: 1143,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trunyx',
-		_id: '5d9d20dc9eb1448067f29f69',
-		amount: 1227,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'LiveZ',
-		_id: '5d9d20dc9eb1448067f29f6a',
-		amount: 5259,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Browsedrive',
-		_id: '5d9d20dc9eb1448067f29f6b',
-		amount: 800,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f29f6c',
-		amount: 2882,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Blogtags',
-		_id: '5d9d20dc9eb1448067f29f6d',
-		amount: 1088,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29f6e',
-		amount: 7234.999999999999,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Kamba',
-		_id: '5d9d20dc9eb1448067f29f6f',
-		amount: 134200,
-		category: 'State Tax',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f70',
-		amount: 7900,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Vipe',
-		_id: '5d9d20dc9eb1448067f29f71',
-		amount: 5289,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f72',
-		amount: 3675,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f73',
-		amount: 836,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f29f74',
-		amount: 2400,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Latz',
-		_id: '5d9d20dc9eb1448067f29f75',
-		amount: 1511,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicstorm',
-		_id: '5d9d20dc9eb1448067f29f76',
-		amount: 1605.9999999999998,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29f77',
-		amount: 158022,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Trunyx',
-		_id: '5d9d20dc9eb1448067f29f78',
-		amount: 869.9999999999999,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f79',
-		amount: 5528,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Livefish',
-		_id: '5d9d20dc9eb1448067f29f7a',
-		amount: 1197,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eire',
-		_id: '5d9d20dc9eb1448067f29f7b',
-		amount: 66400,
-		category: 'State Tax',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f7c',
-		amount: 1197,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29f7d',
-		amount: 10993,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabberbean',
-		_id: '5d9d20dc9eb1448067f29f7e',
-		amount: 20998,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Npath',
-		_id: '5d9d20dc9eb1448067f29f7f',
-		amount: 111104,
-		category: 'Taxes',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f29f80',
-		amount: 1042,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'DabZ',
-		_id: '5d9d20dc9eb1448067f29f81',
-		amount: 7750,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Katz',
-		_id: '5d9d20dc9eb1448067f29f82',
-		amount: 3700,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29f83',
-		amount: 1530,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29f84',
-		amount: 1685.0000000000002,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29f85',
-		amount: 1462,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rooxo',
-		_id: '5d9d20dc9eb1448067f29f86',
-		amount: 1140,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Myworks',
-		_id: '5d9d20dc9eb1448067f29f87',
-		amount: 7723.999999999999,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29f88',
-		amount: 2300,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29f89',
-		amount: 2967,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f8a',
-		amount: 3400,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brainverse',
-		_id: '5d9d20dc9eb1448067f29f8b',
-		amount: 1905,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29f8c',
-		amount: 5367,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quinu',
-		_id: '5d9d20dc9eb1448067f29f8d',
-		amount: 1279,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f29f8e',
-		amount: 3963.0000000000005,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoyo',
-		_id: '5d9d20dc9eb1448067f29f8f',
-		amount: 599,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f90',
-		amount: 9300,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f29f91',
-		amount: 1200,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoyo',
-		_id: '5d9d20dc9eb1448067f29f92',
-		amount: 395,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f29f93',
-		amount: 1099,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabvine',
-		_id: '5d9d20dc9eb1448067f29f94',
-		amount: 19500,
-		category: 'Service Fee',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'DabZ',
-		_id: '5d9d20dc9eb1448067f29f95',
-		amount: 7333,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'DabZ',
-		_id: '5d9d20dc9eb1448067f29f96',
-		amount: 3865.9999999999995,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f29f97',
-		amount: 1800,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29f98',
-		amount: 2737,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f29f99',
-		amount: 5712,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoloo',
-		_id: '5d9d20dc9eb1448067f29f9a',
-		amount: 3236.9999999999995,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rhycero',
-		_id: '5d9d20dc9eb1448067f29f9b',
-		amount: 5075,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29f9c',
-		amount: 1300,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29f9d',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29f9e',
-		amount: 178322,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'InnoZ',
-		_id: '5d9d20dc9eb1448067f29f9f',
-		amount: 974,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Twitterbeat',
-		_id: '5d9d20dc9eb1448067f29fa0',
-		amount: 2500,
-		category: 'Amusement',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f29fa1',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29fa2',
-		amount: 755,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabcube',
-		_id: '5d9d20dc9eb1448067f29fa3',
-		amount: 5010,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoyo',
-		_id: '5d9d20dc9eb1448067f29fa4',
-		amount: 711,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topdrive',
-		_id: '5d9d20dc9eb1448067f29fa5',
-		amount: 1524,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Voomm',
-		_id: '5d9d20dc9eb1448067f29fa6',
-		amount: 8000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eidel',
-		_id: '5d9d20dc9eb1448067f29fa7',
-		amount: 7600,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29fa8',
-		amount: 8349,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Livefish',
-		_id: '5d9d20dc9eb1448067f29fa9',
-		amount: 2175,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Snaptags',
-		_id: '5d9d20dc9eb1448067f29faa',
-		amount: 1265,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicblab',
-		_id: '5d9d20dc9eb1448067f29fab',
-		amount: 653,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29fac',
-		amount: 12700,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoyo',
-		_id: '5d9d20dc9eb1448067f29fad',
-		amount: 711,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Bubblemix',
-		_id: '5d9d20dc9eb1448067f29fae',
-		amount: 10125,
-		category: 'Personal Care',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Flashdog',
-		_id: '5d9d20dc9eb1448067f29faf',
-		amount: 576,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realfire',
-		_id: '5d9d20dc9eb1448067f29fb0',
-		amount: 3724,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Mydeo',
-		_id: '5d9d20dc9eb1448067f29fb1',
-		amount: 2261,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eadel',
-		_id: '5d9d20dc9eb1448067f29fb2',
-		amount: 10192,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29fb3',
-		amount: 3082,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Riffwire',
-		_id: '5d9d20dc9eb1448067f29fb4',
-		amount: 1579,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Vipe',
-		_id: '5d9d20dc9eb1448067f29fb5',
-		amount: 3917,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Twitterwire',
-		_id: '5d9d20dc9eb1448067f29fb6',
-		amount: 1223,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brainverse',
-		_id: '5d9d20dc9eb1448067f29fb7',
-		amount: 1088,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Voomm',
-		_id: '5d9d20dc9eb1448067f29fb8',
-		amount: 6000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zazio',
-		_id: '5d9d20dc9eb1448067f29fb9',
-		amount: 8758,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29fba',
-		amount: 2353,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29fbb',
-		amount: 178322,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29fbc',
-		amount: 1357,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Tagcat',
-		_id: '5d9d20dc9eb1448067f29fbd',
-		amount: 10402,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29fbe',
-		amount: 1197,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Wikivu',
-		_id: '5d9d20dc9eb1448067f29fbf',
-		amount: 20469,
-		category: 'Clothing',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Babbleset',
-		_id: '5d9d20dc9eb1448067f29fc0',
-		amount: 648,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29fc1',
-		amount: 1150,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabcube',
-		_id: '5d9d20dc9eb1448067f29fc2',
-		amount: 2253,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Podcat',
-		_id: '5d9d20dc9eb1448067f29fc3',
-		amount: 13441,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Layo',
-		_id: '5d9d20dc9eb1448067f29fc4',
-		amount: 1296,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Voomm',
-		_id: '5d9d20dc9eb1448067f29fc5',
-		amount: 3200,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quatz',
-		_id: '5d9d20dc9eb1448067f29fc6',
-		amount: 5990,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Npath',
-		_id: '5d9d20dc9eb1448067f29fc7',
-		amount: 3372,
-		category: 'Home Services',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f29fc8',
-		amount: 33560,
-		category: 'Air Travel',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Snaptags',
-		_id: '5d9d20dc9eb1448067f29fc9',
-		amount: 1265,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgeblab',
-		_id: '5d9d20dc9eb1448067f29fca',
-		amount: 1089,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'JumpXS',
-		_id: '5d9d20dc9eb1448067f29fcb',
-		amount: 15794.999999999998,
-		category: 'Clothing',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Feedspan',
-		_id: '5d9d20dc9eb1448067f29fcc',
-		amount: 5077,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Mynte',
-		_id: '5d9d20dc9eb1448067f29fcd',
-		amount: 6695.999999999999,
-		category: 'Utilities',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29fce',
-		amount: 1932,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realbridge',
-		_id: '5d9d20dc9eb1448067f29fcf',
-		amount: 802.9999999999999,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomcast',
-		_id: '5d9d20dc9eb1448067f29fd0',
-		amount: 11600,
-		category: 'Internet',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jazzy',
-		_id: '5d9d20dc9eb1448067f29fd1',
-		amount: 4305,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Kimia',
-		_id: '5d9d20dc9eb1448067f29fd2',
-		amount: 1524,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realbuzz',
-		_id: '5d9d20dc9eb1448067f29fd3',
-		amount: 10219,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f29fd4',
-		amount: 1989.9999999999998,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Kwideo',
-		_id: '5d9d20dc9eb1448067f29fd5',
-		amount: 1400,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgeify',
-		_id: '5d9d20dc9eb1448067f29fd6',
-		amount: 4184,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f29fd7',
-		amount: 1299,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f29fd8',
-		amount: 2300,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brainverse',
-		_id: '5d9d20dc9eb1448067f29fd9',
-		amount: 1088,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realfire',
-		_id: '5d9d20dc9eb1448067f29fda',
-		amount: 3456,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoyo',
-		_id: '5d9d20dc9eb1448067f29fdb',
-		amount: 539,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Twitterwire',
-		_id: '5d9d20dc9eb1448067f29fdc',
-		amount: 3058,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f29fdd',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29fde',
-		amount: 2553,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29fdf',
-		amount: 1645,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29fe0',
-		amount: 10021,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Meembee',
-		_id: '5d9d20dc9eb1448067f29fe1',
-		amount: 1197,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Pixope',
-		_id: '5d9d20dc9eb1448067f29fe2',
-		amount: 12750,
-		category: 'Entertainment',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f29fe3',
-		amount: 178322,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29fe4',
-		amount: 798,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Devcast',
-		_id: '5d9d20dc9eb1448067f29fe5',
-		amount: 11975,
-		category: 'Entertainment',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Voomm',
-		_id: '5d9d20dc9eb1448067f29fe6',
-		amount: 8000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Latz',
-		_id: '5d9d20dc9eb1448067f29fe7',
-		amount: 1848,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f29fe8',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29fe9',
-		amount: 2356,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f29fea',
-		amount: 2242,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabcube',
-		_id: '5d9d20dc9eb1448067f29feb',
-		amount: 4110,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f29fec',
-		amount: 37476,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f29fed',
-		amount: 1468,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzster',
-		_id: '5d9d20dc9eb1448067f29fee',
-		amount: 12600,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jayo',
-		_id: '5d9d20dc9eb1448067f29fef',
-		amount: 4192,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jayo',
-		_id: '5d9d20dc9eb1448067f29ff0',
-		amount: 5299,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trunyx',
-		_id: '5d9d20dc9eb1448067f29ff1',
-		amount: 1520,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f29ff2',
-		amount: 8349,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skidoo',
-		_id: '5d9d20dc9eb1448067f29ff3',
-		amount: 1609,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29ff4',
-		amount: 1106,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youopia',
-		_id: '5d9d20dc9eb1448067f29ff5',
-		amount: 1350,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29ff6',
-		amount: 698,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Bubblebox',
-		_id: '5d9d20dc9eb1448067f29ff7',
-		amount: 399,
-		category: 'Music',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f29ff8',
-		amount: 1357,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f29ff9',
-		amount: 13065,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f29ffa',
-		amount: 578,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Voomm',
-		_id: '5d9d20dc9eb1448067f29ffb',
-		amount: 8000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f29ffc',
-		amount: 12700,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgeblab',
-		_id: '5d9d20dc9eb1448067f29ffd',
-		amount: 1252,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Podcat',
-		_id: '5d9d20dc9eb1448067f29ffe',
-		amount: 765,
-		category: 'Office Supplies',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f29fff',
-		amount: 10886,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f2a000',
-		amount: 1294,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youbridge',
-		_id: '5d9d20dc9eb1448067f2a001',
-		amount: 4200,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f2a002',
-		amount: 2737,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Fivebridge',
-		_id: '5d9d20dc9eb1448067f2a003',
-		amount: 23321,
-		category: 'Entertainment',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Pixoboo',
-		_id: '5d9d20dc9eb1448067f2a004',
-		amount: 4898,
-		category: 'Furnishings',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f2a005',
-		amount: 7000,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eabox',
-		_id: '5d9d20dc9eb1448067f2a006',
-		amount: 1741,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Layo',
-		_id: '5d9d20dc9eb1448067f2a007',
-		amount: 2316,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a008',
-		amount: 2642,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyope',
-		_id: '5d9d20dc9eb1448067f2a009',
-		amount: 14000,
-		category: 'Travel',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zazio',
-		_id: '5d9d20dc9eb1448067f2a00a',
-		amount: 434,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f2a00b',
-		amount: 2598,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a00c',
-		amount: 14750,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudoo',
-		_id: '5d9d20dc9eb1448067f2a00d',
-		amount: 1082,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Roomm',
-		_id: '5d9d20dc9eb1448067f2a00e',
-		amount: 7352,
-		category: 'Home Services',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Ozu',
-		_id: '5d9d20dc9eb1448067f2a00f',
-		amount: 5000,
-		category: 'Health & Fitness',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a010',
-		amount: 438,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Devpoint',
-		_id: '5d9d20dc9eb1448067f2a011',
-		amount: 1197,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topicblab',
-		_id: '5d9d20dc9eb1448067f2a012',
-		amount: 1334,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f2a013',
-		amount: 13741,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f2a014',
-		amount: 170833,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f2a015',
-		amount: 4242,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a016',
-		amount: 1600,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a017',
-		amount: 1595,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a018',
-		amount: 1295,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Kimia',
-		_id: '5d9d20dc9eb1448067f2a019',
-		amount: 2062,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Browseblab',
-		_id: '5d9d20dc9eb1448067f2a01a',
-		amount: 2475,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brainverse',
-		_id: '5d9d20dc9eb1448067f2a01b',
-		amount: 1350,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f2a01c',
-		amount: 3050,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f2a01d',
-		amount: 3604,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'InnoZ',
-		_id: '5d9d20dc9eb1448067f2a01e',
-		amount: 974,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f2a01f',
-		amount: 3050,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a020',
-		amount: 1590,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Teklist',
-		_id: '5d9d20dc9eb1448067f2a021',
-		amount: 875,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Kwinu',
-		_id: '5d9d20dc9eb1448067f2a022',
-		amount: 5500,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Pixoboo',
-		_id: '5d9d20dc9eb1448067f2a023',
-		amount: 11970,
-		category: 'Clothing',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f2a024',
-		amount: 4500,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f2a025',
-		amount: 3050,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a026',
-		amount: 760,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Ailane',
-		_id: '5d9d20dc9eb1448067f2a027',
-		amount: 5473,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f2a028',
-		amount: 2497,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realfire',
-		_id: '5d9d20dc9eb1448067f2a029',
-		amount: 4572,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jaxworks',
-		_id: '5d9d20dc9eb1448067f2a02a',
-		amount: 5636,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f2a02b',
-		amount: 2200,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a02c',
-		amount: 2070,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Aimbo',
-		_id: '5d9d20dc9eb1448067f2a02d',
-		amount: 1935.0000000000002,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Meembee',
-		_id: '5d9d20dc9eb1448067f2a02e',
-		amount: 1144,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f2a02f',
-		amount: 8497,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eazzy',
-		_id: '5d9d20dc9eb1448067f2a030',
-		amount: 2344,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f2a031',
-		amount: 1299,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f2a032',
-		amount: 1414,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photojam',
-		_id: '5d9d20dc9eb1448067f2a033',
-		amount: 2500,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a034',
-		amount: 2120,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Flashdog',
-		_id: '5d9d20dc9eb1448067f2a035',
-		amount: 436.00000000000006,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f2a036',
-		amount: 172339,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Realbuzz',
-		_id: '5d9d20dc9eb1448067f2a037',
-		amount: 9146,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'LiveZ',
-		_id: '5d9d20dc9eb1448067f2a038',
-		amount: 3041,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f2a039',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realbridge',
-		_id: '5d9d20dc9eb1448067f2a03a',
-		amount: 800,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Browsecat',
-		_id: '5d9d20dc9eb1448067f2a03b',
-		amount: 2460,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Snaptags',
-		_id: '5d9d20dc9eb1448067f2a03c',
-		amount: 1265,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f2a03d',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a03e',
-		amount: 1199,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Mynte',
-		_id: '5d9d20dc9eb1448067f2a03f',
-		amount: 6586,
-		category: 'Utilities',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realmix',
-		_id: '5d9d20dc9eb1448067f2a040',
-		amount: 1300,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomcast',
-		_id: '5d9d20dc9eb1448067f2a041',
-		amount: 7726.000000000001,
-		category: 'Internet',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a042',
-		amount: 7511,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Snaptags',
-		_id: '5d9d20dc9eb1448067f2a043',
-		amount: 1265,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f2a044',
-		amount: 6000,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f2a045',
-		amount: 1300,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Feedfish',
-		_id: '5d9d20dc9eb1448067f2a046',
-		amount: 1307,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f2a047',
-		amount: 8349,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Thoughtmix',
-		_id: '5d9d20dc9eb1448067f2a048',
-		amount: 4124,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f2a049',
-		amount: 2300,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Cogidoo',
-		_id: '5d9d20dc9eb1448067f2a04a',
-		amount: 4669,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f2a04b',
-		amount: 958,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f2a04c',
-		amount: 1416,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgeblab',
-		_id: '5d9d20dc9eb1448067f2a04d',
-		amount: 3015,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabtune',
-		_id: '5d9d20dc9eb1448067f2a04e',
-		amount: 8601,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'InnoZ',
-		_id: '5d9d20dc9eb1448067f2a04f',
-		amount: 974,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Photobean',
-		_id: '5d9d20dc9eb1448067f2a050',
-		amount: 12700,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'InnoZ',
-		_id: '5d9d20dc9eb1448067f2a051',
-		amount: 10796,
-		category: 'Sporting Goods',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzster',
-		_id: '5d9d20dc9eb1448067f2a052',
-		amount: 4885,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Riffwire',
-		_id: '5d9d20dc9eb1448067f2a053',
-		amount: 1579,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabtype',
-		_id: '5d9d20dc9eb1448067f2a054',
-		amount: 3076,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a055',
-		amount: 543,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Vipe',
-		_id: '5d9d20dc9eb1448067f2a056',
-		amount: 1508,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Bluezoom',
-		_id: '5d9d20dc9eb1448067f2a057',
-		amount: 300,
-		category: 'ATM Fee',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eayo',
-		_id: '5d9d20dc9eb1448067f2a058',
-		amount: 8000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jaxspan',
-		_id: '5d9d20dc9eb1448067f2a05a',
-		amount: 2118,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Blogtags',
-		_id: '5d9d20dc9eb1448067f2a059',
-		amount: 5582,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Omba',
-		_id: '5d9d20dc9eb1448067f2a05b',
-		amount: 2829,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f2a05c',
-		amount: 8000,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quamba',
-		_id: '5d9d20dc9eb1448067f2a05d',
-		amount: 18224,
-		category: 'Entertainment',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f2a05e',
-		amount: 863.0000000000001,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f2a05f',
-		amount: 2932,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gevee',
-		_id: '5d9d20dc9eb1448067f2a060',
-		amount: 1007,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f2a062',
-		amount: 8000,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Meemm',
-		_id: '5d9d20dc9eb1448067f2a061',
-		amount: 9407,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gigashots',
-		_id: '5d9d20dc9eb1448067f2a063',
-		amount: 648,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trunyx',
-		_id: '5d9d20dc9eb1448067f2a064',
-		amount: 760,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Kwideo',
-		_id: '5d9d20dc9eb1448067f2a065',
-		amount: 8000,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oloo',
-		_id: '5d9d20dc9eb1448067f2a066',
-		amount: 2014,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f2a067',
-		amount: 725,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Abatz',
-		_id: '5d9d20dc9eb1448067f2a068',
-		amount: 5980,
-		category: 'Entertainment',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Abatz',
-		_id: '5d9d20dc9eb1448067f2a069',
-		amount: 855.0000000000001,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f2a06a',
-		amount: 172339,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Topicblab',
-		_id: '5d9d20dc9eb1448067f2a06b',
-		amount: 1410,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a06c',
-		amount: 1950,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f2a06d',
-		amount: 1130,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoombox',
-		_id: '5d9d20dc9eb1448067f2a06e',
-		amount: 1577,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Muxo',
-		_id: '5d9d20dc9eb1448067f2a06f',
-		amount: 1610.0000000000002,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzster',
-		_id: '5d9d20dc9eb1448067f2a070',
-		amount: 39750,
-		category: 'Local Tax',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Babbleset',
-		_id: '5d9d20dc9eb1448067f2a071',
-		amount: 2450,
-		category: 'Clothing',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Oyoloo',
-		_id: '5d9d20dc9eb1448067f2a072',
-		amount: 3046,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Tanoodle',
-		_id: '5d9d20dc9eb1448067f2a073',
-		amount: 41672,
-		category: 'Air Travel',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realfire',
-		_id: '5d9d20dc9eb1448067f2a074',
-		amount: 2153,
-		category: 'Food & Dining',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f2a075',
-		amount: 5953,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Teklist',
-		_id: '5d9d20dc9eb1448067f2a076',
-		amount: 350,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Yodoo',
-		_id: '5d9d20dc9eb1448067f2a077',
-		amount: 2277,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f2a078',
-		amount: 1801.0000000000002,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Avamba',
-		_id: '5d9d20dc9eb1448067f2a079',
-		amount: 2520,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f2a07a',
-		amount: 2300,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f2a07b',
-		amount: 1149,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a07c',
-		amount: 2262,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f2a07d',
-		amount: 1371,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a07e',
-		amount: 2522,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a07f',
-		amount: 1106,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Tagfeed',
-		_id: '5d9d20dc9eb1448067f2a081',
-		amount: 5600,
-		category: 'Mortgage & Rent',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudoo',
-		_id: '5d9d20dc9eb1448067f2a082',
-		amount: 1316,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudeo',
-		_id: '5d9d20dc9eb1448067f2a080',
-		amount: 1299,
-		category: 'Movies & DVDs',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Innojam',
-		_id: '5d9d20dc9eb1448067f2a083',
-		amount: 2898,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Topiclounge',
-		_id: '5d9d20dc9eb1448067f2a084',
-		amount: 1898,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quimba',
-		_id: '5d9d20dc9eb1448067f2a085',
-		amount: 3649,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Brightbean',
-		_id: '5d9d20dc9eb1448067f2a086',
-		amount: 11599,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a087',
-		amount: 2683,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Fliptune',
-		_id: '5d9d20dc9eb1448067f2a088',
-		amount: 23406,
-		category: 'Clothing',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Zoomcast',
-		_id: '5d9d20dc9eb1448067f2a089',
-		amount: 4137,
-		category: 'Internet',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Trudoo',
-		_id: '5d9d20dc9eb1448067f2a08a',
-		amount: 900,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demizz',
-		_id: '5d9d20dc9eb1448067f2a08b',
-		amount: 172339,
-		category: 'Paycheck',
-		account: 'Banking Account',
-		transactionType: 'credit',
-		__v: 0
-	},
-	{
-		description: 'Brainverse',
-		_id: '5d9d20dc9eb1448067f2a08c',
-		amount: 1089,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Mynte',
-		_id: '5d9d20dc9eb1448067f2a08d',
-		amount: 4831,
-		category: 'Utilities',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Gabcube',
-		_id: '5d9d20dc9eb1448067f2a08e',
-		amount: 2068,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Mita',
-		_id: '5d9d20dc9eb1448067f2a08f',
-		amount: 6659.999999999999,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyba',
-		_id: '5d9d20dc9eb1448067f2a090',
-		amount: 4900,
-		category: 'Gym',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f2a091',
-		amount: 4077.0000000000005,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f2a092',
-		amount: 7623.999999999999,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Buzzshare',
-		_id: '5d9d20dc9eb1448067f2a093',
-		amount: 115000,
-		category: 'Mortgage & Rent',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Ailane',
-		_id: '5d9d20dc9eb1448067f2a094',
-		amount: 1087,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f2a095',
-		amount: 8349,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Fatz',
-		_id: '5d9d20dc9eb1448067f2a096',
-		amount: 401,
-		category: 'Fast Food',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Ailane',
-		_id: '5d9d20dc9eb1448067f2a097',
-		amount: 1654,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f2a098',
-		amount: 3150,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Edgepulse',
-		_id: '5d9d20dc9eb1448067f2a099',
-		amount: 2300,
-		category: 'Public Transportation',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Realbridge',
-		_id: '5d9d20dc9eb1448067f2a09a',
-		amount: 1142,
-		category: 'Coffee Shops',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Twitterwire',
-		_id: '5d9d20dc9eb1448067f2a09b',
-		amount: 2154,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a09c',
-		amount: 5036,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a09d',
-		amount: 3097,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Youspan',
-		_id: '5d9d20dc9eb1448067f2a09e',
-		amount: 7000,
-		category: 'Transfer',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Skyvu',
-		_id: '5d9d20dc9eb1448067f2a09f',
-		amount: 1416,
-		category: 'Shopping',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Viva',
-		_id: '5d9d20dc9eb1448067f2a0a0',
-		amount: 499,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rhyzio',
-		_id: '5d9d20dc9eb1448067f2a0a1',
-		amount: 3045,
-		category: 'Groceries',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Voomm',
-		_id: '5d9d20dc9eb1448067f2a0a2',
-		amount: 6000,
-		category: 'Cash & ATM',
-		account: 'Banking Account',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Rhybox',
-		_id: '5d9d20dc9eb1448067f2a0a3',
-		amount: 12506,
-		category: 'Gifts & Donations',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Jabbersphere',
-		_id: '5d9d20dc9eb1448067f2a0a4',
-		amount: 1300,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f2a0a5',
-		amount: 2029,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Wordware',
-		_id: '5d9d20dc9eb1448067f2a0a6',
-		amount: 3235,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Dynabox',
-		_id: '5d9d20dc9eb1448067f2a0a7',
-		amount: 1530,
-		category: 'Rental Car & Taxi',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eazzy',
-		_id: '5d9d20dc9eb1448067f2a0a8',
-		amount: 2515,
-		category: 'Restaurants',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Demimbu',
-		_id: '5d9d20dc9eb1448067f2a0a9',
-		amount: 6052,
-		category: 'Pharmacy',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Eidel',
-		_id: '5d9d20dc9eb1448067f2a0aa',
-		amount: 7600,
-		category: 'Alcohol & Bars',
-		account: 'Credit Card 1',
-		transactionType: 'debit',
-		__v: 0
-	},
-	{
-		description: 'Quatz',
-		_id: '5d9d20dc9eb1448067f2a0ab',
-		amount: 5880,
-		category: 'Restaurants',
-		account: 'Credit Card 2',
-		transactionType: 'debit',
-		__v: 0
-	}
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812f9a0',
+    date: '1/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a0'
+  },
+  {
+    description: 'Feedfish',
+    _id: '5d9e40d8900a9859a812f9a1',
+    date: '1/1/2019',
+    amount: '60.80',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a1'
+  },
+  {
+    description: 'Vinte',
+    _id: '5d9e40d8900a9859a812f9a2',
+    date: '1/1/2019',
+    amount: '10.12',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a2'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812f9a3',
+    date: '1/1/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a3'
+  },
+  {
+    description: 'Avaveo',
+    _id: '5d9e40d8900a9859a812f9a4',
+    date: '1/3/2019',
+    amount: '3.03',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a4'
+  },
+  {
+    description: 'Feedfish',
+    _id: '5d9e40d8900a9859a812f9a5',
+    date: '1/3/2019',
+    amount: '9.42',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a5'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812f9a6',
+    date: '1/3/2019',
+    amount: '121.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a6'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9a7',
+    date: '1/4/2019',
+    amount: '5.98',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a7'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812f9a8',
+    date: '1/4/2019',
+    amount: '83.49',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a8'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812f9a9',
+    date: '1/4/2019',
+    amount: '32.55',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9a9'
+  },
+  {
+    description: 'Brightdog',
+    _id: '5d9e40d8900a9859a812f9aa',
+    date: '1/4/2019',
+    amount: '2.50',
+    category: 'ATM Fee',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9aa'
+  },
+  {
+    description: 'Trilith',
+    _id: '5d9e40d8900a9859a812f9ab',
+    date: '1/4/2019',
+    amount: '80.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ab'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812f9ac',
+    date: '1/4/2019',
+    amount: '22.50',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ac'
+  },
+  {
+    description: 'InnoZ',
+    _id: '5d9e40d8900a9859a812f9ad',
+    date: '1/5/2019',
+    amount: '11.27',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ad'
+  },
+  {
+    description: 'Zoomcast',
+    _id: '5d9e40d8900a9859a812f9ae',
+    date: '1/5/2019',
+    amount: '29.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ae'
+  },
+  {
+    description: 'Zoomcast',
+    _id: '5d9e40d8900a9859a812f9af',
+    date: '1/5/2019',
+    amount: '15.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9af'
+  },
+  {
+    description: 'Zoomcast',
+    _id: '5d9e40d8900a9859a812f9b0',
+    date: '1/5/2019',
+    amount: '27.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b0'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9b1',
+    date: '1/6/2019',
+    amount: '107.25',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b1'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9b2',
+    date: '1/6/2019',
+    amount: '9.83',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b2'
+  },
+  {
+    description: 'Reallinks',
+    _id: '5d9e40d8900a9859a812f9b3',
+    date: '1/6/2019',
+    amount: '39.85',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b3'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812f9b4',
+    date: '1/7/2019',
+    amount: '25.51',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b4'
+  },
+  {
+    description: 'Meemm',
+    _id: '5d9e40d8900a9859a812f9b5',
+    date: '1/7/2019',
+    amount: '54.14',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b5'
+  },
+  {
+    description: 'Wordify',
+    _id: '5d9e40d8900a9859a812f9b6',
+    date: '1/7/2019',
+    amount: '10.10',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b6'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812f9b7',
+    date: '1/7/2019',
+    amount: '200.00',
+    category: 'Vacation',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b7'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9b8',
+    date: '1/9/2019',
+    amount: '11.71',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b8'
+  },
+  {
+    description: 'Trunyx',
+    _id: '5d9e40d8900a9859a812f9b9',
+    date: '1/11/2019',
+    amount: '5.69',
+    category: 'Coffee Shops',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9b9'
+  },
+  {
+    description: 'Rhyzio',
+    _id: '5d9e40d8900a9859a812f9ba',
+    date: '1/11/2019',
+    amount: '10.20',
+    category: 'Groceries',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ba'
+  },
+  {
+    description: 'Dazzlesphere',
+    _id: '5d9e40d8900a9859a812f9bb',
+    date: '1/12/2019',
+    amount: '51.05',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9bb'
+  },
+  {
+    description: 'Photobug',
+    _id: '5d9e40d8900a9859a812f9bc',
+    date: '1/13/2019',
+    amount: '13.50',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9bc'
+  },
+  {
+    description: 'Cogidoo',
+    _id: '5d9e40d8900a9859a812f9bd',
+    date: '1/13/2019',
+    amount: '8.50',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9bd'
+  },
+  {
+    description: 'Quatz',
+    _id: '5d9e40d8900a9859a812f9be',
+    date: '1/13/2019',
+    amount: '247.96',
+    category: 'Air Travel',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9be'
+  },
+  {
+    description: 'Photofeed',
+    _id: '5d9e40d8900a9859a812f9bf',
+    date: '1/13/2019',
+    amount: '8.29',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9bf'
+  },
+  {
+    description: 'Avaveo',
+    _id: '5d9e40d8900a9859a812f9c0',
+    date: '1/15/2019',
+    amount: '3.03',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c0'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812f9c1',
+    date: '1/15/2019',
+    amount: '1626.06',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c1'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9c2',
+    date: '1/15/2019',
+    amount: '107.25',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c2'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9c3',
+    date: '1/15/2019',
+    amount: '14.18',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c3'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812f9c4',
+    date: '1/15/2019',
+    amount: '15.70',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c4'
+  },
+  {
+    description: 'Topicblab',
+    _id: '5d9e40d8900a9859a812f9c5',
+    date: '1/15/2019',
+    amount: '13.88',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c5'
+  },
+  {
+    description: 'Yodel',
+    _id: '5d9e40d8900a9859a812f9c6',
+    date: '1/15/2019',
+    amount: '112.70',
+    category: 'Clothing',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c6'
+  },
+  {
+    description: 'Yozio',
+    _id: '5d9e40d8900a9859a812f9c7',
+    date: '1/15/2019',
+    amount: '7.58',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c7'
+  },
+  {
+    description: 'Wordify',
+    _id: '5d9e40d8900a9859a812f9c8',
+    date: '1/16/2019',
+    amount: '23.00',
+    category: 'Amusement',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c8'
+  },
+  {
+    description: 'Layo',
+    _id: '5d9e40d8900a9859a812f9c9',
+    date: '1/16/2019',
+    amount: '5.16',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9c9'
+  },
+  {
+    description: 'Trudoo',
+    _id: '5d9e40d8900a9859a812f9ca',
+    date: '1/16/2019',
+    amount: '4.53',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ca'
+  },
+  {
+    description: 'Pixope',
+    _id: '5d9e40d8900a9859a812f9cb',
+    date: '1/16/2019',
+    amount: '75.20',
+    category: 'Entertainment',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9cb'
+  },
+  {
+    description: 'InnoZ',
+    _id: '5d9e40d8900a9859a812f9cc',
+    date: '1/17/2019',
+    amount: '17.97',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9cc'
+  },
+  {
+    description: 'Gevee',
+    _id: '5d9e40d8900a9859a812f9cd',
+    date: '1/17/2019',
+    amount: '7.65',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9cd'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812f9ce',
+    date: '1/17/2019',
+    amount: '16.22',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ce'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9cf',
+    date: '1/18/2019',
+    amount: '7.92',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9cf'
+  },
+  {
+    description: 'Feedfish',
+    _id: '5d9e40d8900a9859a812f9d0',
+    date: '1/18/2019',
+    amount: '9.42',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d0'
+  },
+  {
+    description: 'Realmix',
+    _id: '5d9e40d8900a9859a812f9d1',
+    date: '1/19/2019',
+    amount: '17.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d1'
+  },
+  {
+    description: 'Rhyzio',
+    _id: '5d9e40d8900a9859a812f9d2',
+    date: '1/19/2019',
+    amount: '16.70',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d2'
+  },
+  {
+    description: 'Yozio',
+    _id: '5d9e40d8900a9859a812f9d3',
+    date: '1/19/2019',
+    amount: '7.58',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d3'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9d4',
+    date: '1/20/2019',
+    amount: '59.10',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d4'
+  },
+  {
+    description: 'Dabtype',
+    _id: '5d9e40d8900a9859a812f9d5',
+    date: '1/20/2019',
+    amount: '33.72',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d5'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9d6',
+    date: '1/23/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d6'
+  },
+  {
+    description: 'InnoZ',
+    _id: '5d9e40d8900a9859a812f9d7',
+    date: '1/23/2019',
+    amount: '9.74',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d7'
+  },
+  {
+    description: 'Vinder',
+    _id: '5d9e40d8900a9859a812f9d8',
+    date: '1/25/2019',
+    amount: '20.76',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d8'
+  },
+  {
+    description: 'Yabox',
+    _id: '5d9e40d8900a9859a812f9d9',
+    date: '1/25/2019',
+    amount: '33.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9d9'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9da',
+    date: '1/26/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9da'
+  },
+  {
+    description: 'Tagcat',
+    _id: '5d9e40d8900a9859a812f9db',
+    date: '1/26/2019',
+    amount: '92.19',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9db'
+  },
+  {
+    description: 'Feedfish',
+    _id: '5d9e40d8900a9859a812f9dc',
+    date: '1/26/2019',
+    amount: '10.89',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9dc'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812f9dd',
+    date: '1/26/2019',
+    amount: '10.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9dd'
+  },
+  {
+    description: 'Mybuzz',
+    _id: '5d9e40d8900a9859a812f9de',
+    date: '1/26/2019',
+    amount: '16.27',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9de'
+  },
+  {
+    description: 'Devpoint',
+    _id: '5d9e40d8900a9859a812f9df',
+    date: '1/27/2019',
+    amount: '6.37',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9df'
+  },
+  {
+    description: 'Brainlounge',
+    _id: '5d9e40d8900a9859a812f9e0',
+    date: '1/28/2019',
+    amount: '140.15',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e0'
+  },
+  {
+    description: 'Quatz',
+    _id: '5d9e40d8900a9859a812f9e1',
+    date: '1/28/2019',
+    amount: '35.85',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e1'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9e2',
+    date: '1/29/2019',
+    amount: '11.89',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e2'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812f9e3',
+    date: '1/30/2019',
+    amount: '15.55',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e3'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812f9e4',
+    date: '1/31/2019',
+    amount: '1580.34',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e4'
+  },
+  {
+    description: 'Wordify',
+    _id: '5d9e40d8900a9859a812f9e5',
+    date: '1/31/2019',
+    amount: '5.95',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e5'
+  },
+  {
+    description: 'Yozio',
+    _id: '5d9e40d8900a9859a812f9e6',
+    date: '1/31/2019',
+    amount: '3.60',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e6'
+  },
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812f9e7',
+    date: '2/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e7'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9e8',
+    date: '2/1/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e8'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9e9',
+    date: '2/1/2019',
+    amount: '15.71',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9e9'
+  },
+  {
+    description: 'Latz',
+    _id: '5d9e40d8900a9859a812f9ea',
+    date: '2/1/2019',
+    amount: '25.56',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ea'
+  },
+  {
+    description: 'Trudoo',
+    _id: '5d9e40d8900a9859a812f9eb',
+    date: '2/1/2019',
+    amount: '13.16',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9eb'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812f9ec',
+    date: '2/1/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ec'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9ed',
+    date: '2/2/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ed'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812f9ee',
+    date: '2/2/2019',
+    amount: '121.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ee'
+  },
+  {
+    description: 'Omba',
+    _id: '5d9e40d8900a9859a812f9ef',
+    date: '2/2/2019',
+    amount: '53.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ef'
+  },
+  {
+    description: 'Yozio',
+    _id: '5d9e40d8900a9859a812f9f0',
+    date: '2/2/2019',
+    amount: '3.60',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f0'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9f1',
+    date: '2/3/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f1'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9f2',
+    date: '2/3/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f2'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812f9f3',
+    date: '2/3/2019',
+    amount: '83.49',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f3'
+  },
+  {
+    description: 'Twimbo',
+    _id: '5d9e40d8900a9859a812f9f4',
+    date: '2/3/2019',
+    amount: '34.03',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f4'
+  },
+  {
+    description: 'Topiczoom',
+    _id: '5d9e40d8900a9859a812f9f5',
+    date: '2/3/2019',
+    amount: '74.06',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f5'
+  },
+  {
+    description: 'Oyope',
+    _id: '5d9e40d8900a9859a812f9f6',
+    date: '2/3/2019',
+    amount: '17.24',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f6'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812f9f7',
+    date: '2/4/2019',
+    amount: '45.00',
+    category: 'Amusement',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f7'
+  },
+  {
+    description: 'Innotype',
+    _id: '5d9e40d8900a9859a812f9f8',
+    date: '2/4/2019',
+    amount: '57.87',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f8'
+  },
+  {
+    description: 'Eadel',
+    _id: '5d9e40d8900a9859a812f9f9',
+    date: '2/4/2019',
+    amount: '36.09',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9f9'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9fa',
+    date: '2/6/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9fa'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812f9fb',
+    date: '2/6/2019',
+    amount: '10.05',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9fb'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812f9fc',
+    date: '2/7/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9fc'
+  },
+  {
+    description: 'Photobug',
+    _id: '5d9e40d8900a9859a812f9fd',
+    date: '2/7/2019',
+    amount: '5.75',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9fd'
+  },
+  {
+    description: 'Podcat',
+    _id: '5d9e40d8900a9859a812f9fe',
+    date: '2/8/2019',
+    amount: '1.25',
+    category: 'Office Supplies',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9fe'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812f9ff',
+    date: '2/8/2019',
+    amount: '275.00',
+    category: 'Vacation',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812f9ff'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa00',
+    date: '2/9/2019',
+    amount: '5.29',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa00'
+  },
+  {
+    description: 'Vinder',
+    _id: '5d9e40d8900a9859a812fa01',
+    date: '2/9/2019',
+    amount: '23.92',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa01'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fa02',
+    date: '2/9/2019',
+    amount: '8.97',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa02'
+  },
+  {
+    description: 'Eidel',
+    _id: '5d9e40d8900a9859a812fa03',
+    date: '2/9/2019',
+    amount: '17.02',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa03'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa04',
+    date: '2/10/2019',
+    amount: '31.96',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa04'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa05',
+    date: '2/10/2019',
+    amount: '5.13',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa05'
+  },
+  {
+    description: 'Dablist',
+    _id: '5d9e40d8900a9859a812fa06',
+    date: '2/10/2019',
+    amount: '33.33',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa06'
+  },
+  {
+    description: 'Gabcube',
+    _id: '5d9e40d8900a9859a812fa07',
+    date: '2/10/2019',
+    amount: '28.47',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa07'
+  },
+  {
+    description: 'Eayo',
+    _id: '5d9e40d8900a9859a812fa08',
+    date: '2/10/2019',
+    amount: '59.59',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa08'
+  },
+  {
+    description: 'Flipstorm',
+    _id: '5d9e40d8900a9859a812fa09',
+    date: '2/11/2019',
+    amount: '3.50',
+    category: 'ATM Fee',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa09'
+  },
+  {
+    description: 'Flipstorm',
+    _id: '5d9e40d8900a9859a812fa0a',
+    date: '2/11/2019',
+    amount: '100.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa0a'
+  },
+  {
+    description: 'Yamia',
+    _id: '5d9e40d8900a9859a812fa0b',
+    date: '2/11/2019',
+    amount: '30.00',
+    category: 'Parking',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa0b'
+  },
+  {
+    description: 'Gigaclub',
+    _id: '5d9e40d8900a9859a812fa0c',
+    date: '2/11/2019',
+    amount: '18.25',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa0c'
+  },
+  {
+    description: 'Oyoyo',
+    _id: '5d9e40d8900a9859a812fa0d',
+    date: '2/12/2019',
+    amount: '2.08',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa0d'
+  },
+  {
+    description: 'Myworks',
+    _id: '5d9e40d8900a9859a812fa0e',
+    date: '2/12/2019',
+    amount: '27.97',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa0e'
+  },
+  {
+    description: 'Edgewire',
+    _id: '5d9e40d8900a9859a812fa0f',
+    date: '2/12/2019',
+    amount: '16.15',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa0f'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812fa10',
+    date: '2/13/2019',
+    amount: '7.35',
+    category: 'Office Supplies',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa10'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fa11',
+    date: '2/13/2019',
+    amount: '36.81',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa11'
+  },
+  {
+    description: 'Zoomlounge',
+    _id: '5d9e40d8900a9859a812fa12',
+    date: '2/14/2019',
+    amount: '29.73',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa12'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa14',
+    date: '2/14/2019',
+    amount: '7.30',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa14'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fa15',
+    date: '2/14/2019',
+    amount: '14.72',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa15'
+  },
+  {
+    description: 'Ooba',
+    _id: '5d9e40d8900a9859a812fa16',
+    date: '2/14/2019',
+    amount: '33.08',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa16'
+  },
+  {
+    description: 'Jetpulse',
+    _id: '5d9e40d8900a9859a812fa17',
+    date: '2/14/2019',
+    amount: '33.55',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa17'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa13',
+    date: '2/14/2019',
+    amount: '9.60',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa13'
+  },
+  {
+    description: 'Flipstorm',
+    _id: '5d9e40d8900a9859a812fa19',
+    date: '2/15/2019',
+    amount: '100.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa19'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fa1a',
+    date: '2/15/2019',
+    amount: '1580.33',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa1a'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa1b',
+    date: '2/15/2019',
+    amount: '9.65',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa1b'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa1c',
+    date: '2/15/2019',
+    amount: '2.00',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa1c'
+  },
+  {
+    description: 'Flipstorm',
+    _id: '5d9e40d8900a9859a812fa18',
+    date: '2/15/2019',
+    amount: '3.50',
+    category: 'ATM Fee',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa18'
+  },
+  {
+    description: 'Twitterlist',
+    _id: '5d9e40d8900a9859a812fa1e',
+    date: '2/16/2019',
+    amount: '53.40',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa1e'
+  },
+  {
+    description: 'Skaboo',
+    _id: '5d9e40d8900a9859a812fa1f',
+    date: '2/16/2019',
+    amount: '83.87',
+    category: 'Vacation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa1f'
+  },
+  {
+    description: 'Skaboo',
+    _id: '5d9e40d8900a9859a812fa20',
+    date: '2/16/2019',
+    amount: '20.00',
+    category: 'Vacation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa20'
+  },
+  {
+    description: 'Photojam',
+    _id: '5d9e40d8900a9859a812fa21',
+    date: '2/16/2019',
+    amount: '112.08',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa21'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa1d',
+    date: '2/16/2019',
+    amount: '11.18',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa1d'
+  },
+  {
+    description: 'Thoughtbeat',
+    _id: '5d9e40d8900a9859a812fa23',
+    date: '2/17/2019',
+    amount: '40.43',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa23'
+  },
+  {
+    description: 'Roombo',
+    _id: '5d9e40d8900a9859a812fa24',
+    date: '2/18/2019',
+    amount: '27.09',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa24'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa25',
+    date: '2/19/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa25'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa26',
+    date: '2/19/2019',
+    amount: '93.79',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa26'
+  },
+  {
+    description: 'Trilith',
+    _id: '5d9e40d8900a9859a812fa22',
+    date: '2/17/2019',
+    amount: '31.15',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa22'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa28',
+    date: '2/21/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa28'
+  },
+  {
+    description: 'Katz',
+    _id: '5d9e40d8900a9859a812fa2a',
+    date: '2/21/2019',
+    amount: '13.05',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa2a'
+  },
+  {
+    description: 'Oyope',
+    _id: '5d9e40d8900a9859a812fa29',
+    date: '2/21/2019',
+    amount: '100.00',
+    category: 'Mortgage & Rent',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa29'
+  },
+  {
+    description: 'Eazzy',
+    _id: '5d9e40d8900a9859a812fa27',
+    date: '2/19/2019',
+    amount: '60.88',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa27'
+  },
+  {
+    description: 'Teklist',
+    _id: '5d9e40d8900a9859a812fa2b',
+    date: '2/23/2019',
+    amount: '4.00',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa2b'
+  },
+  {
+    description: 'Skiptube',
+    _id: '5d9e40d8900a9859a812fa2f',
+    date: '2/24/2019',
+    amount: '102.00',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa2f'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fa2d',
+    date: '2/24/2019',
+    amount: '13.00',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa2d'
+  },
+  {
+    description: 'Skiptube',
+    _id: '5d9e40d8900a9859a812fa2e',
+    date: '2/24/2019',
+    amount: '38.00',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa2e'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa2c',
+    date: '2/24/2019',
+    amount: '107.25',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa2c'
+  },
+  {
+    description: 'Topicstorm',
+    _id: '5d9e40d8900a9859a812fa30',
+    date: '2/24/2019',
+    amount: '46.20',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa30'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812fa34',
+    date: '2/26/2019',
+    amount: '10.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa34'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa32',
+    date: '2/25/2019',
+    amount: '5.00',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa32'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa33',
+    date: '2/26/2019',
+    amount: '5.52',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa33'
+  },
+  {
+    description: 'Twitterwire',
+    _id: '5d9e40d8900a9859a812fa31',
+    date: '2/24/2019',
+    amount: '35.89',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa31'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fa35',
+    date: '2/28/2019',
+    amount: '1580.34',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa35'
+  },
+  {
+    description: 'Gevee',
+    _id: '5d9e40d8900a9859a812fa39',
+    date: '3/1/2019',
+    amount: '4.90',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa39'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa38',
+    date: '3/1/2019',
+    amount: '8.78',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa38'
+  },
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812fa37',
+    date: '3/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa37'
+  },
+  {
+    description: 'Rooxo',
+    _id: '5d9e40d8900a9859a812fa36',
+    date: '2/28/2019',
+    amount: '11.40',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa36'
+  },
+  {
+    description: 'Flashdog',
+    _id: '5d9e40d8900a9859a812fa3a',
+    date: '3/1/2019',
+    amount: '4.36',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa3a'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa3e',
+    date: '3/4/2019',
+    amount: '50.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa3e'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa3d',
+    date: '3/4/2019',
+    amount: '35.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa3d'
+  },
+  {
+    description: 'Omba',
+    _id: '5d9e40d8900a9859a812fa3b',
+    date: '3/1/2019',
+    amount: '60.60',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa3b'
+  },
+  {
+    description: 'Topicblab',
+    _id: '5d9e40d8900a9859a812fa3c',
+    date: '3/2/2019',
+    amount: '14.10',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa3c'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fa43',
+    date: '3/6/2019',
+    amount: '24.99',
+    category: 'Entertainment',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa43'
+  },
+  {
+    description: 'Gevee',
+    _id: '5d9e40d8900a9859a812fa3f',
+    date: '3/5/2019',
+    amount: '4.90',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa3f'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa40',
+    date: '3/5/2019',
+    amount: '83.49',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa40'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812fa42',
+    date: '3/6/2019',
+    amount: '121.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa42'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa41',
+    date: '3/6/2019',
+    amount: '13.77',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa41'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa48',
+    date: '3/9/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa48'
+  },
+  {
+    description: 'Wordify',
+    _id: '5d9e40d8900a9859a812fa45',
+    date: '3/7/2019',
+    amount: '4.99',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa45'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa44',
+    date: '3/7/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa44'
+  },
+  {
+    description: 'Gevee',
+    _id: '5d9e40d8900a9859a812fa47',
+    date: '3/8/2019',
+    amount: '4.90',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa47'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa46',
+    date: '3/7/2019',
+    amount: '50.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa46'
+  },
+  {
+    description: 'Ainyx',
+    _id: '5d9e40d8900a9859a812fa4d',
+    date: '3/12/2019',
+    amount: '341.41',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa4d'
+  },
+  {
+    description: 'Fatz',
+    _id: '5d9e40d8900a9859a812fa49',
+    date: '3/9/2019',
+    amount: '852.49',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa49'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa4a',
+    date: '3/11/2019',
+    amount: '102.24',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa4a'
+  },
+  {
+    description: 'Cogidoo',
+    _id: '5d9e40d8900a9859a812fa4c',
+    date: '3/11/2019',
+    amount: '36.24',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa4c'
+  },
+  {
+    description: 'Npath',
+    _id: '5d9e40d8900a9859a812fa4b',
+    date: '3/11/2019',
+    amount: '30.05',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa4b'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa52',
+    date: '3/14/2019',
+    amount: '13.47',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa52'
+  },
+  {
+    description: 'Ainyx',
+    _id: '5d9e40d8900a9859a812fa4e',
+    date: '3/12/2019',
+    amount: '276.95',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa4e'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa4f',
+    date: '3/12/2019',
+    amount: '2.69',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa4f'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fa51',
+    date: '3/12/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa51'
+  },
+  {
+    description: 'Brainverse',
+    _id: '5d9e40d8900a9859a812fa57',
+    date: '3/17/2019',
+    amount: '54.94',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa57'
+  },
+  {
+    description: 'Meevee',
+    _id: '5d9e40d8900a9859a812fa50',
+    date: '3/12/2019',
+    amount: '14.14',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa50'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fa53',
+    date: '3/15/2019',
+    amount: '1580.33',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa53'
+  },
+  {
+    description: 'Gevee',
+    _id: '5d9e40d8900a9859a812fa54',
+    date: '3/15/2019',
+    amount: '4.90',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa54'
+  },
+  {
+    description: 'Rhyzio',
+    _id: '5d9e40d8900a9859a812fa56',
+    date: '3/16/2019',
+    amount: '10.75',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa56'
+  },
+  {
+    description: 'Voomm',
+    _id: '5d9e40d8900a9859a812fa5c',
+    date: '3/18/2019',
+    amount: '160.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa5c'
+  },
+  {
+    description: 'Rhyzio',
+    _id: '5d9e40d8900a9859a812fa55',
+    date: '3/16/2019',
+    amount: '9.95',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa55'
+  },
+  {
+    description: 'Centidel',
+    _id: '5d9e40d8900a9859a812fa58',
+    date: '3/17/2019',
+    amount: '93.75',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa58'
+  },
+  {
+    description: 'Topicblab',
+    _id: '5d9e40d8900a9859a812fa59',
+    date: '3/17/2019',
+    amount: '27.98',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa59'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa5b',
+    date: '3/18/2019',
+    amount: '282.97',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa5b'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa61',
+    date: '3/19/2019',
+    amount: '7.98',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa61'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa5a',
+    date: '3/18/2019',
+    amount: '25.03',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa5a'
+  },
+  {
+    description: 'Gabcube',
+    _id: '5d9e40d8900a9859a812fa5d',
+    date: '3/18/2019',
+    amount: '35.00',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa5d'
+  },
+  {
+    description: 'Trunyx',
+    _id: '5d9e40d8900a9859a812fa5e',
+    date: '3/18/2019',
+    amount: '14.13',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa5e'
+  },
+  {
+    description: 'Blogtags',
+    _id: '5d9e40d8900a9859a812fa60',
+    date: '3/18/2019',
+    amount: '10.88',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa60'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa66',
+    date: '3/19/2019',
+    amount: '36.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa66'
+  },
+  {
+    description: 'Quire',
+    _id: '5d9e40d8900a9859a812fa5f',
+    date: '3/18/2019',
+    amount: '16.01',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa5f'
+  },
+  {
+    description: 'Dablist',
+    _id: '5d9e40d8900a9859a812fa63',
+    date: '3/19/2019',
+    amount: '76.20',
+    category: 'Electronics & Software',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa63'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa62',
+    date: '3/19/2019',
+    amount: '9.28',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa62'
+  },
+  {
+    description: 'Trunyx',
+    _id: '5d9e40d8900a9859a812fa65',
+    date: '3/19/2019',
+    amount: '5.32',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa65'
+  },
+  {
+    description: 'Geba',
+    _id: '5d9e40d8900a9859a812fa6b',
+    date: '3/21/2019',
+    amount: '1056.09',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa6b'
+  },
+  {
+    description: 'Dablist',
+    _id: '5d9e40d8900a9859a812fa64',
+    date: '3/19/2019',
+    amount: '707.68',
+    category: 'Electronics & Software',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa64'
+  },
+  {
+    description: 'Pixoboo',
+    _id: '5d9e40d8900a9859a812fa67',
+    date: '3/20/2019',
+    amount: '55.64',
+    category: 'Office Supplies',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa67'
+  },
+  {
+    description: 'Eazzy',
+    _id: '5d9e40d8900a9859a812fa68',
+    date: '3/20/2019',
+    amount: '23.24',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa68'
+  },
+  {
+    description: 'Tazz',
+    _id: '5d9e40d8900a9859a812fa6a',
+    date: '3/21/2019',
+    amount: '136.03',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa6a'
+  },
+  {
+    description: 'Youtags',
+    _id: '5d9e40d8900a9859a812fa70',
+    date: '3/24/2019',
+    amount: '173.16',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa70'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa69',
+    date: '3/21/2019',
+    amount: '46.57',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa69'
+  },
+  {
+    description: 'Browsebug',
+    _id: '5d9e40d8900a9859a812fa6d',
+    date: '3/22/2019',
+    amount: '18.50',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa6d'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fa6c',
+    date: '3/22/2019',
+    amount: '25.64',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa6c'
+  },
+  {
+    description: 'Skiba',
+    _id: '5d9e40d8900a9859a812fa6f',
+    date: '3/23/2019',
+    amount: '91.92',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa6f'
+  },
+  {
+    description: 'Oyoyo',
+    _id: '5d9e40d8900a9859a812fa75',
+    date: '3/25/2019',
+    amount: '2.45',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa75'
+  },
+  {
+    description: 'Zoomcast',
+    _id: '5d9e40d8900a9859a812fa6e',
+    date: '3/22/2019',
+    amount: '44.99',
+    category: 'Internet',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa6e'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fa71',
+    date: '3/24/2019',
+    amount: '13.98',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa71'
+  },
+  {
+    description: 'Omba',
+    _id: '5d9e40d8900a9859a812fa72',
+    date: '3/24/2019',
+    amount: '44.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa72'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa74',
+    date: '3/25/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa74'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa73',
+    date: '3/25/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa73'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812fa7a',
+    date: '3/26/2019',
+    amount: '10.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa7a'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa76',
+    date: '3/25/2019',
+    amount: '19.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa76'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa77',
+    date: '3/25/2019',
+    amount: '50.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa77'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa79',
+    date: '3/26/2019',
+    amount: '23.94',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa79'
+  },
+  {
+    description: 'Jayo',
+    _id: '5d9e40d8900a9859a812fa78',
+    date: '3/26/2019',
+    amount: '28.17',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa78'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa7f',
+    date: '3/28/2019',
+    amount: '60.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa7f'
+  },
+  {
+    description: 'Vidoo',
+    _id: '5d9e40d8900a9859a812fa7b',
+    date: '3/27/2019',
+    amount: '29.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa7b'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa7c',
+    date: '3/28/2019',
+    amount: '7.98',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa7c'
+  },
+  {
+    description: 'Oyope',
+    _id: '5d9e40d8900a9859a812fa7e',
+    date: '3/28/2019',
+    amount: '23.00',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa7e'
+  },
+  {
+    description: 'Browsetype',
+    _id: '5d9e40d8900a9859a812fa7d',
+    date: '3/28/2019',
+    amount: '7.62',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa7d'
+  },
+  {
+    description: 'Tanoodle',
+    _id: '5d9e40d8900a9859a812fa84',
+    date: '3/30/2019',
+    amount: '35.26',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa84'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fa80',
+    date: '3/29/2019',
+    amount: '1580.34',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa80'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa81',
+    date: '3/29/2019',
+    amount: '15.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa81'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa83',
+    date: '3/30/2019',
+    amount: '9.03',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa83'
+  },
+  {
+    description: 'Wordify',
+    _id: '5d9e40d8900a9859a812fa82',
+    date: '3/30/2019',
+    amount: '62.10',
+    category: 'Amusement',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa82'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fa89',
+    date: '4/1/2019',
+    amount: '224.08',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa89'
+  },
+  {
+    description: 'Pixoboo',
+    _id: '5d9e40d8900a9859a812fa85',
+    date: '3/30/2019',
+    amount: '79.80',
+    category: 'Clothing',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa85'
+  },
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812fa88',
+    date: '4/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa88'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fa86',
+    date: '3/31/2019',
+    amount: '26.58',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa86'
+  },
+  {
+    description: 'Lazz',
+    _id: '5d9e40d8900a9859a812fa87',
+    date: '3/31/2019',
+    amount: '103.01',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa87'
+  },
+  {
+    description: 'Oyoloo',
+    _id: '5d9e40d8900a9859a812fa8a',
+    date: '4/1/2019',
+    amount: '54.96',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa8a'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa8e',
+    date: '4/2/2019',
+    amount: '61.05',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa8e'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fa8d',
+    date: '4/1/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa8d'
+  },
+  {
+    description: 'Blogtags',
+    _id: '5d9e40d8900a9859a812fa8b',
+    date: '4/1/2019',
+    amount: '9.53',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa8b'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fa8c',
+    date: '4/1/2019',
+    amount: '31.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa8c'
+  },
+  {
+    description: 'Livefish',
+    _id: '5d9e40d8900a9859a812fa8f',
+    date: '4/2/2019',
+    amount: '11.97',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa8f'
+  },
+  {
+    description: 'Gabcube',
+    _id: '5d9e40d8900a9859a812fa93',
+    date: '4/3/2019',
+    amount: '17.17',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa93'
+  },
+  {
+    description: 'Brainverse',
+    _id: '5d9e40d8900a9859a812fa92',
+    date: '4/3/2019',
+    amount: '11.95',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa92'
+  },
+  {
+    description: 'Topicblab',
+    _id: '5d9e40d8900a9859a812fa90',
+    date: '4/2/2019',
+    amount: '14.43',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa90'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fa91',
+    date: '4/3/2019',
+    amount: '11.97',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa91'
+  },
+  {
+    description: 'Lajo',
+    _id: '5d9e40d8900a9859a812fa94',
+    date: '4/3/2019',
+    amount: '342.95',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa94'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812fa98',
+    date: '4/5/2019',
+    amount: '12.51',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa98'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fa97',
+    date: '4/4/2019',
+    amount: '83.49',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa97'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fa95',
+    date: '4/3/2019',
+    amount: '17.42',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa95'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fa96',
+    date: '4/4/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa96'
+  },
+  {
+    description: 'LiveZ',
+    _id: '5d9e40d8900a9859a812fa9d',
+    date: '4/7/2019',
+    amount: '52.59',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa9d'
+  },
+  {
+    description: 'Kwideo',
+    _id: '5d9e40d8900a9859a812fa99',
+    date: '4/6/2019',
+    amount: '50.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa99'
+  },
+  {
+    description: 'Trunyx',
+    _id: '5d9e40d8900a9859a812fa9c',
+    date: '4/7/2019',
+    amount: '12.27',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa9c'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812fa9a',
+    date: '4/6/2019',
+    amount: '121.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa9a'
+  },
+  {
+    description: 'Thoughtsphere',
+    _id: '5d9e40d8900a9859a812fa9b',
+    date: '4/6/2019',
+    amount: '11.43',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa9b'
+  },
+  {
+    description: 'Kamba',
+    _id: '5d9e40d8900a9859a812faa2',
+    date: '4/8/2019',
+    amount: '1342.00',
+    category: 'State Tax',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa2'
+  },
+  {
+    description: 'Browsedrive',
+    _id: '5d9e40d8900a9859a812fa9e',
+    date: '4/7/2019',
+    amount: '8.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa9e'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812faa1',
+    date: '4/8/2019',
+    amount: '72.35',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa1'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812fa9f',
+    date: '4/7/2019',
+    amount: '28.82',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fa9f'
+  },
+  {
+    description: 'Blogtags',
+    _id: '5d9e40d8900a9859a812faa0',
+    date: '4/7/2019',
+    amount: '10.88',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa0'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812faa7',
+    date: '4/13/2019',
+    amount: '24.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa7'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812faa3',
+    date: '4/8/2019',
+    amount: '79.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa3'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812faa6',
+    date: '4/10/2019',
+    amount: '8.36',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa6'
+  },
+  {
+    description: 'Vipe',
+    _id: '5d9e40d8900a9859a812faa4',
+    date: '4/9/2019',
+    amount: '52.89',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa4'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812faa5',
+    date: '4/10/2019',
+    amount: '36.75',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa5'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812faac',
+    date: '4/16/2019',
+    amount: '55.28',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faac'
+  },
+  {
+    description: 'Latz',
+    _id: '5d9e40d8900a9859a812faa8',
+    date: '4/13/2019',
+    amount: '15.11',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa8'
+  },
+  {
+    description: 'Trunyx',
+    _id: '5d9e40d8900a9859a812faab',
+    date: '4/15/2019',
+    amount: '8.70',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faab'
+  },
+  {
+    description: 'Topicstorm',
+    _id: '5d9e40d8900a9859a812faa9',
+    date: '4/14/2019',
+    amount: '16.06',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faa9'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812faaa',
+    date: '4/15/2019',
+    amount: '1580.22',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faaa'
+  },
+  {
+    description: 'Jabberbean',
+    _id: '5d9e40d8900a9859a812fab1',
+    date: '4/17/2019',
+    amount: '209.98',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab1'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fab0',
+    date: '4/17/2019',
+    amount: '109.93',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab0'
+  },
+  {
+    description: 'Livefish',
+    _id: '5d9e40d8900a9859a812faad',
+    date: '4/16/2019',
+    amount: '11.97',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faad'
+  },
+  {
+    description: 'Eire',
+    _id: '5d9e40d8900a9859a812faae',
+    date: '4/16/2019',
+    amount: '664.00',
+    category: 'State Tax',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faae'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fab6',
+    date: '4/19/2019',
+    amount: '15.30',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab6'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812faaf',
+    date: '4/17/2019',
+    amount: '11.97',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faaf'
+  },
+  {
+    description: 'Npath',
+    _id: '5d9e40d8900a9859a812fab2',
+    date: '4/17/2019',
+    amount: '1111.04',
+    category: 'Taxes',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab2'
+  },
+  {
+    description: 'Katz',
+    _id: '5d9e40d8900a9859a812fab5',
+    date: '4/18/2019',
+    amount: '37.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab5'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812fab3',
+    date: '4/18/2019',
+    amount: '10.42',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab3'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fabb',
+    date: '4/22/2019',
+    amount: '23.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fabb'
+  },
+  {
+    description: 'DabZ',
+    _id: '5d9e40d8900a9859a812fab4',
+    date: '4/18/2019',
+    amount: '77.50',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab4'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fab7',
+    date: '4/21/2019',
+    amount: '16.85',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab7'
+  },
+  {
+    description: 'Myworks',
+    _id: '5d9e40d8900a9859a812faba',
+    date: '4/21/2019',
+    amount: '77.24',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faba'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fab8',
+    date: '4/21/2019',
+    amount: '14.62',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab8'
+  },
+  {
+    description: 'Quinu',
+    _id: '5d9e40d8900a9859a812fac0',
+    date: '4/24/2019',
+    amount: '12.79',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac0'
+  },
+  {
+    description: 'Rooxo',
+    _id: '5d9e40d8900a9859a812fab9',
+    date: '4/21/2019',
+    amount: '11.40',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fab9'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fabc',
+    date: '4/22/2019',
+    amount: '29.67',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fabc'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fabf',
+    date: '4/24/2019',
+    amount: '53.67',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fabf'
+  },
+  {
+    description: 'Oyoyo',
+    _id: '5d9e40d8900a9859a812fac5',
+    date: '4/26/2019',
+    amount: '3.95',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac5'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fabd',
+    date: '4/22/2019',
+    amount: '34.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fabd'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fac1',
+    date: '4/25/2019',
+    amount: '39.63',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac1'
+  },
+  {
+    description: 'Brainverse',
+    _id: '5d9e40d8900a9859a812fabe',
+    date: '4/23/2019',
+    amount: '19.05',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fabe'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fac4',
+    date: '4/26/2019',
+    amount: '12.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac4'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812fac6',
+    date: '4/26/2019',
+    amount: '10.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac6'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812faca',
+    date: '4/27/2019',
+    amount: '18.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faca'
+  },
+  {
+    description: 'Oyoyo',
+    _id: '5d9e40d8900a9859a812fac2',
+    date: '4/25/2019',
+    amount: '5.99',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac2'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fac3',
+    date: '4/25/2019',
+    amount: '93.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac3'
+  },
+  {
+    description: 'DabZ',
+    _id: '5d9e40d8900a9859a812fac9',
+    date: '4/26/2019',
+    amount: '38.66',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac9'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812facf',
+    date: '4/29/2019',
+    amount: '13.00',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812facf'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812facb',
+    date: '4/27/2019',
+    amount: '27.37',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812facb'
+  },
+  {
+    description: 'Gabvine',
+    _id: '5d9e40d8900a9859a812fac7',
+    date: '4/26/2019',
+    amount: '195.00',
+    category: 'Service Fee',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac7'
+  },
+  {
+    description: 'DabZ',
+    _id: '5d9e40d8900a9859a812fac8',
+    date: '4/26/2019',
+    amount: '73.33',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fac8'
+  },
+  {
+    description: 'Rhycero',
+    _id: '5d9e40d8900a9859a812face',
+    date: '4/28/2019',
+    amount: '50.75',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812face'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fad0',
+    date: '4/29/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad0'
+  },
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812fad4',
+    date: '5/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad4'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812facc',
+    date: '4/27/2019',
+    amount: '57.12',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812facc'
+  },
+  {
+    description: 'Oyoloo',
+    _id: '5d9e40d8900a9859a812facd',
+    date: '4/28/2019',
+    amount: '32.37',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812facd'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fad5',
+    date: '5/1/2019',
+    amount: '7.55',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad5'
+  },
+  {
+    description: 'Twitterbeat',
+    _id: '5d9e40d8900a9859a812fad3',
+    date: '4/30/2019',
+    amount: '25.00',
+    category: 'Amusement',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad3'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fad1',
+    date: '4/30/2019',
+    amount: '1783.22',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad1'
+  },
+  {
+    description: 'InnoZ',
+    _id: '5d9e40d8900a9859a812fad2',
+    date: '4/30/2019',
+    amount: '9.74',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad2'
+  },
+  {
+    description: 'Voomm',
+    _id: '5d9e40d8900a9859a812fad9',
+    date: '5/3/2019',
+    amount: '80.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad9'
+  },
+  {
+    description: 'Eidel',
+    _id: '5d9e40d8900a9859a812fada',
+    date: '5/3/2019',
+    amount: '76.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fada'
+  },
+  {
+    description: 'Topdrive',
+    _id: '5d9e40d8900a9859a812fad8',
+    date: '5/1/2019',
+    amount: '15.24',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad8'
+  },
+  {
+    description: 'Oyoyo',
+    _id: '5d9e40d8900a9859a812fad7',
+    date: '5/1/2019',
+    amount: '7.11',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad7'
+  },
+  {
+    description: 'Topicblab',
+    _id: '5d9e40d8900a9859a812fade',
+    date: '5/5/2019',
+    amount: '6.53',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fade'
+  },
+  {
+    description: 'Gabcube',
+    _id: '5d9e40d8900a9859a812fad6',
+    date: '5/1/2019',
+    amount: '50.10',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fad6'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812fadf',
+    date: '5/7/2019',
+    amount: '127.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fadf'
+  },
+  {
+    description: 'Snaptags',
+    _id: '5d9e40d8900a9859a812fadd',
+    date: '5/5/2019',
+    amount: '12.65',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fadd'
+  },
+  {
+    description: 'Livefish',
+    _id: '5d9e40d8900a9859a812fadc',
+    date: '5/5/2019',
+    amount: '21.75',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fadc'
+  },
+  {
+    description: 'Realfire',
+    _id: '5d9e40d8900a9859a812fae3',
+    date: '5/8/2019',
+    amount: '37.24',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae3'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fadb',
+    date: '5/4/2019',
+    amount: '83.49',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fadb'
+  },
+  {
+    description: 'Mydeo',
+    _id: '5d9e40d8900a9859a812fae4',
+    date: '5/8/2019',
+    amount: '22.61',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae4'
+  },
+  {
+    description: 'Flashdog',
+    _id: '5d9e40d8900a9859a812fae2',
+    date: '5/8/2019',
+    amount: '5.76',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae2'
+  },
+  {
+    description: 'Bubblemix',
+    _id: '5d9e40d8900a9859a812fae1',
+    date: '5/8/2019',
+    amount: '101.25',
+    category: 'Personal Care',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae1'
+  },
+  {
+    description: 'Vipe',
+    _id: '5d9e40d8900a9859a812fae8',
+    date: '5/10/2019',
+    amount: '39.17',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae8'
+  },
+  {
+    description: 'Oyoyo',
+    _id: '5d9e40d8900a9859a812fae0',
+    date: '5/8/2019',
+    amount: '7.11',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae0'
+  },
+  {
+    description: 'Twitterwire',
+    _id: '5d9e40d8900a9859a812fae9',
+    date: '5/12/2019',
+    amount: '12.23',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae9'
+  },
+  {
+    description: 'Riffwire',
+    _id: '5d9e40d8900a9859a812fae7',
+    date: '5/10/2019',
+    amount: '15.79',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae7'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fae6',
+    date: '5/10/2019',
+    amount: '30.82',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae6'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812faed',
+    date: '5/14/2019',
+    amount: '23.53',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faed'
+  },
+  {
+    description: 'Eadel',
+    _id: '5d9e40d8900a9859a812fae5',
+    date: '5/9/2019',
+    amount: '101.92',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fae5'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812faee',
+    date: '5/15/2019',
+    amount: '1783.22',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faee'
+  },
+  {
+    description: 'Zazio',
+    _id: '5d9e40d8900a9859a812faec',
+    date: '5/13/2019',
+    amount: '87.58',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faec'
+  },
+  {
+    description: 'Voomm',
+    _id: '5d9e40d8900a9859a812faeb',
+    date: '5/13/2019',
+    amount: '60.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faeb'
+  },
+  {
+    description: 'Wikivu',
+    _id: '5d9e40d8900a9859a812faf2',
+    date: '5/16/2019',
+    amount: '204.69',
+    category: 'Clothing',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf2'
+  },
+  {
+    description: 'Brainverse',
+    _id: '5d9e40d8900a9859a812faea',
+    date: '5/13/2019',
+    amount: '10.88',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faea'
+  },
+  {
+    description: 'Babbleset',
+    _id: '5d9e40d8900a9859a812faf3',
+    date: '5/16/2019',
+    amount: '6.48',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf3'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812faf1',
+    date: '5/16/2019',
+    amount: '11.97',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf1'
+  },
+  {
+    description: 'Tagcat',
+    _id: '5d9e40d8900a9859a812faf0',
+    date: '5/15/2019',
+    amount: '104.02',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf0'
+  },
+  {
+    description: 'Layo',
+    _id: '5d9e40d8900a9859a812faf7',
+    date: '5/19/2019',
+    amount: '12.96',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf7'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812faef',
+    date: '5/15/2019',
+    amount: '13.57',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faef'
+  },
+  {
+    description: 'Voomm',
+    _id: '5d9e40d8900a9859a812faf8',
+    date: '5/20/2019',
+    amount: '32.00',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf8'
+  },
+  {
+    description: 'Podcat',
+    _id: '5d9e40d8900a9859a812faf6',
+    date: '5/19/2019',
+    amount: '134.41',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf6'
+  },
+  {
+    description: 'Snaptags',
+    _id: '5d9e40d8900a9859a812fafc',
+    date: '5/21/2019',
+    amount: '12.65',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fafc'
+  },
+  {
+    description: 'Gabcube',
+    _id: '5d9e40d8900a9859a812faf5',
+    date: '5/19/2019',
+    amount: '22.53',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf5'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812faf4',
+    date: '5/19/2019',
+    amount: '11.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf4'
+  },
+  {
+    description: 'Edgeblab',
+    _id: '5d9e40d8900a9859a812fafd',
+    date: '5/21/2019',
+    amount: '10.89',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fafd'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fafb',
+    date: '5/21/2019',
+    amount: '335.60',
+    category: 'Air Travel',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fafb'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fb01',
+    date: '5/22/2019',
+    amount: '19.32',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb01'
+  },
+  {
+    description: 'Npath',
+    _id: '5d9e40d8900a9859a812fafa',
+    date: '5/20/2019',
+    amount: '33.72',
+    category: 'Home Services',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fafa'
+  },
+  {
+    description: 'Quatz',
+    _id: '5d9e40d8900a9859a812faf9',
+    date: '5/20/2019',
+    amount: '59.90',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faf9'
+  },
+  {
+    description: 'Mynte',
+    _id: '5d9e40d8900a9859a812fb00',
+    date: '5/22/2019',
+    amount: '66.96',
+    category: 'Utilities',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb00'
+  },
+  {
+    description: 'Realbridge',
+    _id: '5d9e40d8900a9859a812fb02',
+    date: '5/22/2019',
+    amount: '8.03',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb02'
+  },
+  {
+    description: 'Realbuzz',
+    _id: '5d9e40d8900a9859a812fb06',
+    date: '5/24/2019',
+    amount: '102.19',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb06'
+  },
+  {
+    description: 'Feedspan',
+    _id: '5d9e40d8900a9859a812faff',
+    date: '5/22/2019',
+    amount: '50.77',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812faff'
+  },
+  {
+    description: 'JumpXS',
+    _id: '5d9e40d8900a9859a812fafe',
+    date: '5/21/2019',
+    amount: '157.95',
+    category: 'Clothing',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fafe'
+  },
+  {
+    description: 'Kimia',
+    _id: '5d9e40d8900a9859a812fb05',
+    date: '5/23/2019',
+    amount: '15.24',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb05'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fb07',
+    date: '5/25/2019',
+    amount: '19.90',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb07'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fb0b',
+    date: '5/27/2019',
+    amount: '23.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb0b'
+  },
+  {
+    description: 'Jazzy',
+    _id: '5d9e40d8900a9859a812fb04',
+    date: '5/23/2019',
+    amount: '43.05',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb04'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812fb0a',
+    date: '5/26/2019',
+    amount: '12.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb0a'
+  },
+  {
+    description: 'Zoomcast',
+    _id: '5d9e40d8900a9859a812fb03',
+    date: '5/22/2019',
+    amount: '116.00',
+    category: 'Internet',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb03'
+  },
+  {
+    description: 'Brainverse',
+    _id: '5d9e40d8900a9859a812fb0c',
+    date: '5/27/2019',
+    amount: '10.88',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb0c'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fb10',
+    date: '5/28/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb10'
+  },
+  {
+    description: 'Twitterwire',
+    _id: '5d9e40d8900a9859a812fb0f',
+    date: '5/28/2019',
+    amount: '30.58',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb0f'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb11',
+    date: '5/29/2019',
+    amount: '25.53',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb11'
+  },
+  {
+    description: 'Kwideo',
+    _id: '5d9e40d8900a9859a812fb08',
+    date: '5/25/2019',
+    amount: '14.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb08'
+  },
+  {
+    description: 'Pixope',
+    _id: '5d9e40d8900a9859a812fb15',
+    date: '5/30/2019',
+    amount: '127.50',
+    category: 'Entertainment',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb15'
+  },
+  {
+    description: 'Edgeify',
+    _id: '5d9e40d8900a9859a812fb09',
+    date: '5/25/2019',
+    amount: '41.84',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb09'
+  },
+  {
+    description: 'Meembee',
+    _id: '5d9e40d8900a9859a812fb14',
+    date: '5/30/2019',
+    amount: '11.97',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb14'
+  },
+  {
+    description: 'Latz',
+    _id: '5d9e40d8900a9859a812fb1a',
+    date: '5/31/2019',
+    amount: '18.48',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb1a'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fb16',
+    date: '5/31/2019',
+    amount: '1783.22',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb16'
+  },
+  {
+    description: 'Oyoyo',
+    _id: '5d9e40d8900a9859a812fb0e',
+    date: '5/28/2019',
+    amount: '5.39',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb0e'
+  },
+  {
+    description: 'Realfire',
+    _id: '5d9e40d8900a9859a812fb0d',
+    date: '5/27/2019',
+    amount: '34.56',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb0d'
+  },
+  {
+    description: 'Voomm',
+    _id: '5d9e40d8900a9859a812fb19',
+    date: '5/31/2019',
+    amount: '80.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb19'
+  },
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812fb1b',
+    date: '6/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb1b'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fb1f',
+    date: '6/2/2019',
+    amount: '374.76',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb1f'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fb12',
+    date: '5/29/2019',
+    amount: '16.45',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb12'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812fb13',
+    date: '5/29/2019',
+    amount: '100.21',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb13'
+  },
+  {
+    description: 'Gabcube',
+    _id: '5d9e40d8900a9859a812fb1e',
+    date: '6/1/2019',
+    amount: '41.10',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb1e'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812fb20',
+    date: '6/2/2019',
+    amount: '14.68',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb20'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb17',
+    date: '5/31/2019',
+    amount: '7.98',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb17'
+  },
+  {
+    description: 'Trunyx',
+    _id: '5d9e40d8900a9859a812fb24',
+    date: '6/3/2019',
+    amount: '15.20',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb24'
+  },
+  {
+    description: 'Jayo',
+    _id: '5d9e40d8900a9859a812fb23',
+    date: '6/3/2019',
+    amount: '52.99',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb23'
+  },
+  {
+    description: 'Devcast',
+    _id: '5d9e40d8900a9859a812fb18',
+    date: '5/31/2019',
+    amount: '119.75',
+    category: 'Entertainment',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb18'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fb25',
+    date: '6/3/2019',
+    amount: '83.49',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb25'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb1c',
+    date: '6/1/2019',
+    amount: '23.56',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb1c'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb29',
+    date: '6/6/2019',
+    amount: '6.98',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb29'
+  },
+  {
+    description: 'Youopia',
+    _id: '5d9e40d8900a9859a812fb28',
+    date: '6/4/2019',
+    amount: '13.50',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb28'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb1d',
+    date: '6/1/2019',
+    amount: '22.42',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb1d'
+  },
+  {
+    description: 'Bubblebox',
+    _id: '5d9e40d8900a9859a812fb2a',
+    date: '6/6/2019',
+    amount: '3.99',
+    category: 'Music',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb2a'
+  },
+  {
+    description: 'Buzzster',
+    _id: '5d9e40d8900a9859a812fb21',
+    date: '6/2/2019',
+    amount: '126.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb21'
+  },
+  {
+    description: 'Voomm',
+    _id: '5d9e40d8900a9859a812fb2e',
+    date: '6/7/2019',
+    amount: '80.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb2e'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb2d',
+    date: '6/7/2019',
+    amount: '5.78',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb2d'
+  },
+  {
+    description: 'Jayo',
+    _id: '5d9e40d8900a9859a812fb22',
+    date: '6/3/2019',
+    amount: '41.92',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb22'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812fb2f',
+    date: '6/7/2019',
+    amount: '127.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb2f'
+  },
+  {
+    description: 'Skidoo',
+    _id: '5d9e40d8900a9859a812fb26',
+    date: '6/3/2019',
+    amount: '16.09',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb26'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fb32',
+    date: '6/8/2019',
+    amount: '108.86',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb32'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb33',
+    date: '6/9/2019',
+    amount: '12.94',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb33'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb27',
+    date: '6/4/2019',
+    amount: '11.06',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb27'
+  },
+  {
+    description: 'Youbridge',
+    _id: '5d9e40d8900a9859a812fb34',
+    date: '6/9/2019',
+    amount: '42.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb34'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fb2b',
+    date: '6/6/2019',
+    amount: '13.57',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb2b'
+  },
+  {
+    description: 'Pixoboo',
+    _id: '5d9e40d8900a9859a812fb37',
+    date: '6/9/2019',
+    amount: '48.98',
+    category: 'Furnishings',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb37'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fb2c',
+    date: '6/6/2019',
+    amount: '130.65',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb2c'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fb38',
+    date: '6/9/2019',
+    amount: '70.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb38'
+  },
+  {
+    description: 'Eabox',
+    _id: '5d9e40d8900a9859a812fb39',
+    date: '6/10/2019',
+    amount: '17.41',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb39'
+  },
+  {
+    description: 'Edgeblab',
+    _id: '5d9e40d8900a9859a812fb30',
+    date: '6/7/2019',
+    amount: '12.52',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb30'
+  },
+  {
+    description: 'Oyope',
+    _id: '5d9e40d8900a9859a812fb3c',
+    date: '6/11/2019',
+    amount: '140.00',
+    category: 'Travel',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb3c'
+  },
+  {
+    description: 'Podcat',
+    _id: '5d9e40d8900a9859a812fb31',
+    date: '6/7/2019',
+    amount: '7.65',
+    category: 'Office Supplies',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb31'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fb3e',
+    date: '6/12/2019',
+    amount: '25.98',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb3e'
+  },
+  {
+    description: 'Zazio',
+    _id: '5d9e40d8900a9859a812fb3d',
+    date: '6/12/2019',
+    amount: '4.34',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb3d'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fb35',
+    date: '6/9/2019',
+    amount: '27.37',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb35'
+  },
+  {
+    description: 'Roomm',
+    _id: '5d9e40d8900a9859a812fb41',
+    date: '6/13/2019',
+    amount: '73.52',
+    category: 'Home Services',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb41'
+  },
+  {
+    description: 'Fivebridge',
+    _id: '5d9e40d8900a9859a812fb36',
+    date: '6/9/2019',
+    amount: '233.21',
+    category: 'Entertainment',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb36'
+  },
+  {
+    description: 'Ozu',
+    _id: '5d9e40d8900a9859a812fb42',
+    date: '6/13/2019',
+    amount: '50.00',
+    category: 'Health & Fitness',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb42'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fb43',
+    date: '6/13/2019',
+    amount: '4.38',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb43'
+  },
+  {
+    description: 'Layo',
+    _id: '5d9e40d8900a9859a812fb3a',
+    date: '6/10/2019',
+    amount: '23.16',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb3a'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fb46',
+    date: '6/13/2019',
+    amount: '137.41',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb46'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb3b',
+    date: '6/11/2019',
+    amount: '26.42',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb3b'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fb47',
+    date: '6/14/2019',
+    amount: '1708.33',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb47'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb48',
+    date: '6/14/2019',
+    amount: '42.42',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb48'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fb3f',
+    date: '6/12/2019',
+    amount: '147.50',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb3f'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fb4b',
+    date: '6/15/2019',
+    amount: '12.95',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb4b'
+  },
+  {
+    description: 'Trudoo',
+    _id: '5d9e40d8900a9859a812fb40',
+    date: '6/12/2019',
+    amount: '10.82',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb40'
+  },
+  {
+    description: 'Browseblab',
+    _id: '5d9e40d8900a9859a812fb4d',
+    date: '6/16/2019',
+    amount: '24.75',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb4d'
+  },
+  {
+    description: 'Devpoint',
+    _id: '5d9e40d8900a9859a812fb44',
+    date: '6/13/2019',
+    amount: '11.97',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb44'
+  },
+  {
+    description: 'Kimia',
+    _id: '5d9e40d8900a9859a812fb4c',
+    date: '6/16/2019',
+    amount: '20.62',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb4c'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb50',
+    date: '6/18/2019',
+    amount: '36.04',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb50'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fb52',
+    date: '6/19/2019',
+    amount: '30.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb52'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fb49',
+    date: '6/15/2019',
+    amount: '16.00',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb49'
+  },
+  {
+    description: 'Topicblab',
+    _id: '5d9e40d8900a9859a812fb45',
+    date: '6/13/2019',
+    amount: '13.34',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb45'
+  },
+  {
+    description: 'InnoZ',
+    _id: '5d9e40d8900a9859a812fb51',
+    date: '6/18/2019',
+    amount: '9.74',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb51'
+  },
+  {
+    description: 'Kwinu',
+    _id: '5d9e40d8900a9859a812fb55',
+    date: '6/20/2019',
+    amount: '55.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb55'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fb57',
+    date: '6/21/2019',
+    amount: '45.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb57'
+  },
+  {
+    description: 'Brainverse',
+    _id: '5d9e40d8900a9859a812fb4e',
+    date: '6/17/2019',
+    amount: '13.50',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb4e'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fb4a',
+    date: '6/15/2019',
+    amount: '15.95',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb4a'
+  },
+  {
+    description: 'Pixoboo',
+    _id: '5d9e40d8900a9859a812fb56',
+    date: '6/20/2019',
+    amount: '119.70',
+    category: 'Clothing',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb56'
+  },
+  {
+    description: 'Ailane',
+    _id: '5d9e40d8900a9859a812fb5a',
+    date: '6/21/2019',
+    amount: '54.73',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb5a'
+  },
+  {
+    description: 'Realfire',
+    _id: '5d9e40d8900a9859a812fb5c',
+    date: '6/22/2019',
+    amount: '45.72',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb5c'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb53',
+    date: '6/19/2019',
+    amount: '15.90',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb53'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fb4f',
+    date: '6/18/2019',
+    amount: '30.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb4f'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812fb5b',
+    date: '6/21/2019',
+    amount: '24.97',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb5b'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fb5f',
+    date: '6/23/2019',
+    amount: '20.70',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb5f'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fb58',
+    date: '6/21/2019',
+    amount: '30.50',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb58'
+  },
+  {
+    description: 'Teklist',
+    _id: '5d9e40d8900a9859a812fb54',
+    date: '6/19/2019',
+    amount: '8.75',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb54'
+  },
+  {
+    description: 'Meembee',
+    _id: '5d9e40d8900a9859a812fb61',
+    date: '6/24/2019',
+    amount: '11.44',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb61'
+  },
+  {
+    description: 'Aimbo',
+    _id: '5d9e40d8900a9859a812fb60',
+    date: '6/24/2019',
+    amount: '19.35',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb60'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812fb64',
+    date: '6/25/2019',
+    amount: '12.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb64'
+  },
+  {
+    description: 'Jaxworks',
+    _id: '5d9e40d8900a9859a812fb5d',
+    date: '6/23/2019',
+    amount: '56.36',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb5d'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb59',
+    date: '6/21/2019',
+    amount: '7.60',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb59'
+  },
+  {
+    description: 'Photojam',
+    _id: '5d9e40d8900a9859a812fb66',
+    date: '6/26/2019',
+    amount: '25.00',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb66'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fb65',
+    date: '6/26/2019',
+    amount: '14.14',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb65'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fb69',
+    date: '6/28/2019',
+    amount: '1723.39',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb69'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fb62',
+    date: '6/24/2019',
+    amount: '84.97',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb62'
+  },
+  {
+    description: 'LiveZ',
+    _id: '5d9e40d8900a9859a812fb6b',
+    date: '6/28/2019',
+    amount: '30.41',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb6b'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812fb5e',
+    date: '6/23/2019',
+    amount: '22.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb5e'
+  },
+  {
+    description: 'Realbuzz',
+    _id: '5d9e40d8900a9859a812fb6a',
+    date: '6/28/2019',
+    amount: '91.46',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb6a'
+  },
+  {
+    description: 'Browsecat',
+    _id: '5d9e40d8900a9859a812fb6e',
+    date: '6/29/2019',
+    amount: '24.60',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb6e'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb67',
+    date: '6/27/2019',
+    amount: '21.20',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb67'
+  },
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812fb70',
+    date: '7/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb70'
+  },
+  {
+    description: 'Snaptags',
+    _id: '5d9e40d8900a9859a812fb6f',
+    date: '6/30/2019',
+    amount: '12.65',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb6f'
+  },
+  {
+    description: 'Eazzy',
+    _id: '5d9e40d8900a9859a812fb63',
+    date: '6/24/2019',
+    amount: '23.44',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb63'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fb6c',
+    date: '6/28/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb6c'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb75',
+    date: '7/2/2019',
+    amount: '75.11',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb75'
+  },
+  {
+    description: 'Zoomcast',
+    _id: '5d9e40d8900a9859a812fb74',
+    date: '7/1/2019',
+    amount: '77.26',
+    category: 'Internet',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb74'
+  },
+  {
+    description: 'Realmix',
+    _id: '5d9e40d8900a9859a812fb73',
+    date: '7/1/2019',
+    amount: '13.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb73'
+  },
+  {
+    description: 'Flashdog',
+    _id: '5d9e40d8900a9859a812fb68',
+    date: '6/27/2019',
+    amount: '4.36',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb68'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb71',
+    date: '7/1/2019',
+    amount: '11.99',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb71'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fb7a',
+    date: '7/3/2019',
+    amount: '83.49',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb7a'
+  },
+  {
+    description: 'Feedfish',
+    _id: '5d9e40d8900a9859a812fb79',
+    date: '7/3/2019',
+    amount: '13.07',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb79'
+  },
+  {
+    description: 'Realbridge',
+    _id: '5d9e40d8900a9859a812fb6d',
+    date: '6/29/2019',
+    amount: '8.00',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb6d'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fb78',
+    date: '7/3/2019',
+    amount: '13.00',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb78'
+  },
+  {
+    description: 'Snaptags',
+    _id: '5d9e40d8900a9859a812fb76',
+    date: '7/2/2019',
+    amount: '12.65',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb76'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fb7f',
+    date: '7/7/2019',
+    amount: '14.16',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb7f'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb7e',
+    date: '7/6/2019',
+    amount: '9.58',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb7e'
+  },
+  {
+    description: 'Mynte',
+    _id: '5d9e40d8900a9859a812fb72',
+    date: '7/1/2019',
+    amount: '65.86',
+    category: 'Utilities',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb72'
+  },
+  {
+    description: 'Cogidoo',
+    _id: '5d9e40d8900a9859a812fb7d',
+    date: '7/5/2019',
+    amount: '46.69',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb7d'
+  },
+  {
+    description: 'Thoughtmix',
+    _id: '5d9e40d8900a9859a812fb7b',
+    date: '7/4/2019',
+    amount: '41.24',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb7b'
+  },
+  {
+    description: 'InnoZ',
+    _id: '5d9e40d8900a9859a812fb84',
+    date: '7/7/2019',
+    amount: '107.96',
+    category: 'Sporting Goods',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb84'
+  },
+  {
+    description: 'Photobean',
+    _id: '5d9e40d8900a9859a812fb83',
+    date: '7/7/2019',
+    amount: '127.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb83'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fb77',
+    date: '7/3/2019',
+    amount: '60.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb77'
+  },
+  {
+    description: 'InnoZ',
+    _id: '5d9e40d8900a9859a812fb82',
+    date: '7/7/2019',
+    amount: '9.74',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb82'
+  },
+  {
+    description: 'Edgeblab',
+    _id: '5d9e40d8900a9859a812fb80',
+    date: '7/7/2019',
+    amount: '30.15',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb80'
+  },
+  {
+    description: 'Vipe',
+    _id: '5d9e40d8900a9859a812fb89',
+    date: '7/10/2019',
+    amount: '15.08',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb89'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fb88',
+    date: '7/10/2019',
+    amount: '5.43',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb88'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fb7c',
+    date: '7/5/2019',
+    amount: '23.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb7c'
+  },
+  {
+    description: 'Gabtype',
+    _id: '5d9e40d8900a9859a812fb87',
+    date: '7/10/2019',
+    amount: '30.76',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb87'
+  },
+  {
+    description: 'Buzzster',
+    _id: '5d9e40d8900a9859a812fb85',
+    date: '7/7/2019',
+    amount: '48.85',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb85'
+  },
+  {
+    description: 'Jaxspan',
+    _id: '5d9e40d8900a9859a812fb8d',
+    date: '7/10/2019',
+    amount: '21.18',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb8d'
+  },
+  {
+    description: 'Omba',
+    _id: '5d9e40d8900a9859a812fb8e',
+    date: '7/11/2019',
+    amount: '28.29',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb8e'
+  },
+  {
+    description: 'Gabtune',
+    _id: '5d9e40d8900a9859a812fb81',
+    date: '7/7/2019',
+    amount: '86.01',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb81'
+  },
+  {
+    description: 'Blogtags',
+    _id: '5d9e40d8900a9859a812fb8c',
+    date: '7/10/2019',
+    amount: '55.82',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb8c'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fb92',
+    date: '7/12/2019',
+    amount: '29.32',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb92'
+  },
+  {
+    description: 'Bluezoom',
+    _id: '5d9e40d8900a9859a812fb8a',
+    date: '7/10/2019',
+    amount: '3.00',
+    category: 'ATM Fee',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb8a'
+  },
+  {
+    description: 'Gevee',
+    _id: '5d9e40d8900a9859a812fb93',
+    date: '7/12/2019',
+    amount: '10.07',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb93'
+  },
+  {
+    description: 'Riffwire',
+    _id: '5d9e40d8900a9859a812fb86',
+    date: '7/8/2019',
+    amount: '15.79',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb86'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb91',
+    date: '7/12/2019',
+    amount: '8.63',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb91'
+  },
+  {
+    description: 'Trunyx',
+    _id: '5d9e40d8900a9859a812fb97',
+    date: '7/13/2019',
+    amount: '7.60',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb97'
+  },
+  {
+    description: 'Kwideo',
+    _id: '5d9e40d8900a9859a812fb98',
+    date: '7/13/2019',
+    amount: '80.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb98'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fb8f',
+    date: '7/11/2019',
+    amount: '80.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb8f'
+  },
+  {
+    description: 'Eayo',
+    _id: '5d9e40d8900a9859a812fb8b',
+    date: '7/10/2019',
+    amount: '80.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb8b'
+  },
+  {
+    description: 'Gigashots',
+    _id: '5d9e40d8900a9859a812fb96',
+    date: '7/13/2019',
+    amount: '6.48',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb96'
+  },
+  {
+    description: 'Abatz',
+    _id: '5d9e40d8900a9859a812fb9c',
+    date: '7/13/2019',
+    amount: '8.55',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb9c'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fb9d',
+    date: '7/15/2019',
+    amount: '1723.39',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb9d'
+  },
+  {
+    description: 'Meemm',
+    _id: '5d9e40d8900a9859a812fb94',
+    date: '7/12/2019',
+    amount: '94.07',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb94'
+  },
+  {
+    description: 'Quamba',
+    _id: '5d9e40d8900a9859a812fb90',
+    date: '7/12/2019',
+    amount: '182.24',
+    category: 'Entertainment',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb90'
+  },
+  {
+    description: 'Abatz',
+    _id: '5d9e40d8900a9859a812fb9b',
+    date: '7/13/2019',
+    amount: '59.80',
+    category: 'Entertainment',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb9b'
+  },
+  {
+    description: 'Muxo',
+    _id: '5d9e40d8900a9859a812fba2',
+    date: '7/16/2019',
+    amount: '16.10',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba2'
+  },
+  {
+    description: 'Zoombox',
+    _id: '5d9e40d8900a9859a812fba1',
+    date: '7/16/2019',
+    amount: '15.77',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba1'
+  },
+  {
+    description: 'Oloo',
+    _id: '5d9e40d8900a9859a812fb99',
+    date: '7/13/2019',
+    amount: '20.14',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb99'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fba0',
+    date: '7/16/2019',
+    amount: '11.30',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba0'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fb95',
+    date: '7/12/2019',
+    amount: '80.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb95'
+  },
+  {
+    description: 'Realfire',
+    _id: '5d9e40d8900a9859a812fba7',
+    date: '7/18/2019',
+    amount: '21.53',
+    category: 'Food & Dining',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba7'
+  },
+  {
+    description: 'Tanoodle',
+    _id: '5d9e40d8900a9859a812fba6',
+    date: '7/18/2019',
+    amount: '416.72',
+    category: 'Air Travel',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba6'
+  },
+  {
+    description: 'Topicblab',
+    _id: '5d9e40d8900a9859a812fb9e',
+    date: '7/15/2019',
+    amount: '14.10',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb9e'
+  },
+  {
+    description: 'Oyoloo',
+    _id: '5d9e40d8900a9859a812fba5',
+    date: '7/18/2019',
+    amount: '30.46',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba5'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fb9a',
+    date: '7/13/2019',
+    amount: '7.25',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb9a'
+  },
+  {
+    description: 'Avamba',
+    _id: '5d9e40d8900a9859a812fbac',
+    date: '7/20/2019',
+    amount: '25.20',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbac'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812fbab',
+    date: '7/20/2019',
+    amount: '18.01',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbab'
+  },
+  {
+    description: 'Yodoo',
+    _id: '5d9e40d8900a9859a812fbaa',
+    date: '7/20/2019',
+    amount: '22.77',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbaa'
+  },
+  {
+    description: 'Buzzster',
+    _id: '5d9e40d8900a9859a812fba3',
+    date: '7/17/2019',
+    amount: '397.50',
+    category: 'Local Tax',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba3'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fb9f',
+    date: '7/16/2019',
+    amount: '19.50',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fb9f'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fbb1',
+    date: '7/23/2019',
+    amount: '25.22',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb1'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fba8',
+    date: '7/19/2019',
+    amount: '59.53',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba8'
+  },
+  {
+    description: 'Babbleset',
+    _id: '5d9e40d8900a9859a812fba4',
+    date: '7/17/2019',
+    amount: '24.50',
+    category: 'Clothing',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba4'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fbb0',
+    date: '7/22/2019',
+    amount: '13.71',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb0'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fbaf',
+    date: '7/22/2019',
+    amount: '22.62',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbaf'
+  },
+  {
+    description: 'Innojam',
+    _id: '5d9e40d8900a9859a812fbb6',
+    date: '7/27/2019',
+    amount: '28.98',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb6'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fbad',
+    date: '7/21/2019',
+    amount: '23.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbad'
+  },
+  {
+    description: 'Trudoo',
+    _id: '5d9e40d8900a9859a812fbb5',
+    date: '7/26/2019',
+    amount: '13.16',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb5'
+  },
+  {
+    description: 'Teklist',
+    _id: '5d9e40d8900a9859a812fba9',
+    date: '7/19/2019',
+    amount: '3.50',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fba9'
+  },
+  {
+    description: 'Tagfeed',
+    _id: '5d9e40d8900a9859a812fbb4',
+    date: '7/26/2019',
+    amount: '56.00',
+    category: 'Mortgage & Rent',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb4'
+  },
+  {
+    description: 'Fliptune',
+    _id: '5d9e40d8900a9859a812fbbb',
+    date: '7/29/2019',
+    amount: '234.06',
+    category: 'Clothing',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbbb'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fbb2',
+    date: '7/25/2019',
+    amount: '11.06',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb2'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fbba',
+    date: '7/29/2019',
+    amount: '26.83',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbba'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fbae',
+    date: '7/21/2019',
+    amount: '11.49',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbae'
+  },
+  {
+    description: 'Brightbean',
+    _id: '5d9e40d8900a9859a812fbb9',
+    date: '7/27/2019',
+    amount: '115.99',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb9'
+  },
+  {
+    description: 'Mynte',
+    _id: '5d9e40d8900a9859a812fbc0',
+    date: '7/31/2019',
+    amount: '48.31',
+    category: 'Utilities',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc0'
+  },
+  {
+    description: 'Topiclounge',
+    _id: '5d9e40d8900a9859a812fbb7',
+    date: '7/27/2019',
+    amount: '18.98',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb7'
+  },
+  {
+    description: 'Brainverse',
+    _id: '5d9e40d8900a9859a812fbbf',
+    date: '7/31/2019',
+    amount: '10.89',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbbf'
+  },
+  {
+    description: 'Trudeo',
+    _id: '5d9e40d8900a9859a812fbb3',
+    date: '7/25/2019',
+    amount: '12.99',
+    category: 'Movies & DVDs',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb3'
+  },
+  {
+    description: 'Demizz',
+    _id: '5d9e40d8900a9859a812fbbe',
+    date: '7/31/2019',
+    amount: '1723.39',
+    category: 'Paycheck',
+    account: 'Banking Account',
+    transactionType: 'credit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbbe'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fbc5',
+    date: '8/1/2019',
+    amount: '76.24',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc5'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fbc4',
+    date: '8/1/2019',
+    amount: '40.77',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc4'
+  },
+  {
+    description: 'Zoomcast',
+    _id: '5d9e40d8900a9859a812fbbc',
+    date: '7/29/2019',
+    amount: '41.37',
+    category: 'Internet',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbbc'
+  },
+  {
+    description: 'Skyba',
+    _id: '5d9e40d8900a9859a812fbc3',
+    date: '8/1/2019',
+    amount: '49.00',
+    category: 'Gym',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc3'
+  },
+  {
+    description: 'Quimba',
+    _id: '5d9e40d8900a9859a812fbb8',
+    date: '7/27/2019',
+    amount: '36.49',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbb8'
+  },
+  {
+    description: 'Ailane',
+    _id: '5d9e40d8900a9859a812fbca',
+    date: '8/3/2019',
+    amount: '16.54',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbca'
+  },
+  {
+    description: 'Fatz',
+    _id: '5d9e40d8900a9859a812fbc9',
+    date: '8/3/2019',
+    amount: '4.01',
+    category: 'Fast Food',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc9'
+  },
+  {
+    description: 'Gabcube',
+    _id: '5d9e40d8900a9859a812fbc1',
+    date: '7/31/2019',
+    amount: '20.68',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc1'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fbc8',
+    date: '8/2/2019',
+    amount: '83.49',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc8'
+  },
+  {
+    description: 'Twitterwire',
+    _id: '5d9e40d8900a9859a812fbce',
+    date: '8/4/2019',
+    amount: '21.54',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbce'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fbcf',
+    date: '8/5/2019',
+    amount: '50.36',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbcf'
+  },
+  {
+    description: 'Buzzshare',
+    _id: '5d9e40d8900a9859a812fbc6',
+    date: '8/1/2019',
+    amount: '1150.00',
+    category: 'Mortgage & Rent',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc6'
+  },
+  {
+    description: 'Trudoo',
+    _id: '5d9e40d8900a9859a812fbbd',
+    date: '7/30/2019',
+    amount: '9.00',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbbd'
+  },
+  {
+    description: 'Realbridge',
+    _id: '5d9e40d8900a9859a812fbcd',
+    date: '8/4/2019',
+    amount: '11.42',
+    category: 'Coffee Shops',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbcd'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fbd3',
+    date: '8/7/2019',
+    amount: '4.99',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd3'
+  },
+  {
+    description: 'Rhyzio',
+    _id: '5d9e40d8900a9859a812fbd4',
+    date: '8/7/2019',
+    amount: '30.45',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd4'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fbcb',
+    date: '8/4/2019',
+    amount: '31.50',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbcb'
+  },
+  {
+    description: 'Mita',
+    _id: '5d9e40d8900a9859a812fbc2',
+    date: '7/31/2019',
+    amount: '66.60',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc2'
+  },
+  {
+    description: 'Skyvu',
+    _id: '5d9e40d8900a9859a812fbd2',
+    date: '8/7/2019',
+    amount: '14.16',
+    category: 'Shopping',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd2'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fbd8',
+    date: '8/9/2019',
+    amount: '20.29',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd8'
+  },
+  {
+    description: 'Wordware',
+    _id: '5d9e40d8900a9859a812fbd9',
+    date: '8/10/2019',
+    amount: '32.35',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd9'
+  },
+  {
+    description: 'Viva',
+    _id: '5d9e40d8900a9859a812fbd0',
+    date: '8/5/2019',
+    amount: '30.97',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd0'
+  },
+  {
+    description: 'Ailane',
+    _id: '5d9e40d8900a9859a812fbc7',
+    date: '8/2/2019',
+    amount: '10.87',
+    category: 'Groceries',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbc7'
+  },
+  {
+    description: 'Quatz',
+    _id: '5d9e40d8900a9859a812fbde',
+    date: '8/12/2019',
+    amount: '58.80',
+    category: 'Restaurants',
+    account: 'Credit Card 2',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbde'
+  },
+  {
+    description: 'Jabbersphere',
+    _id: '5d9e40d8900a9859a812fbd7',
+    date: '8/9/2019',
+    amount: '13.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd7'
+  },
+  {
+    description: 'Voomm',
+    _id: '5d9e40d8900a9859a812fbd5',
+    date: '8/8/2019',
+    amount: '60.00',
+    category: 'Cash & ATM',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd5'
+  },
+  {
+    description: 'Eidel',
+    _id: '5d9e40d8900a9859a812fbdd',
+    date: '8/12/2019',
+    amount: '76.00',
+    category: 'Alcohol & Bars',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbdd'
+  },
+  {
+    description: 'Edgepulse',
+    _id: '5d9e40d8900a9859a812fbcc',
+    date: '8/4/2019',
+    amount: '23.00',
+    category: 'Public Transportation',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbcc'
+  },
+  {
+    description: 'Demimbu',
+    _id: '5d9e40d8900a9859a812fbdc',
+    date: '8/11/2019',
+    amount: '60.52',
+    category: 'Pharmacy',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbdc'
+  },
+  {
+    description: 'Dynabox',
+    _id: '5d9e40d8900a9859a812fbda',
+    date: '8/10/2019',
+    amount: '15.30',
+    category: 'Rental Car & Taxi',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbda'
+  },
+  {
+    description: 'Youspan',
+    _id: '5d9e40d8900a9859a812fbd1',
+    date: '8/5/2019',
+    amount: '70.00',
+    category: 'Transfer',
+    account: 'Banking Account',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd1'
+  },
+  {
+    description: 'Rhybox',
+    _id: '5d9e40d8900a9859a812fbd6',
+    date: '8/8/2019',
+    amount: '125.06',
+    category: 'Gifts & Donations',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbd6'
+  },
+  {
+    description: 'Eazzy',
+    _id: '5d9e40d8900a9859a812fbdb',
+    date: '8/10/2019',
+    amount: '25.15',
+    category: 'Restaurants',
+    account: 'Credit Card 1',
+    transactionType: 'debit',
+    __v: 0,
+    id: '5d9e40d8900a9859a812fbdb'
+  }
 ];
+
 export default data;

@@ -1,44 +1,60 @@
 import React from 'react';
-import '../formstyle.css';
 import axios from 'axios';
+import Paper from '@material-ui/core/Paper';
+import Button from '@material-ui/core/Button';
+import { DropzoneDialog } from 'material-ui-dropzone';
 
 class FileInputForm extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      selectedFile: null
+      open: false
     };
 
-    this.onChangeHandler = this.onChangeHandler.bind(this);
-    this.onClickHandler = this.onClickHandler.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+    this.handleOpen = this.handleOpen.bind(this);
+    this.handleSave = this.handleSave.bind(this);
   }
 
-  onChangeHandler(event) {
+  handleClose() {
     this.setState({
-      selectedFile: event.target.files[0]
+      open: false
     });
   }
 
-  onClickHandler() {
+  handleSave(files) {
+    //Saving files to state for further use and closing Modal.
+    this.setState({
+      open: false
+    });
+
     const data = new FormData();
-    data.append('file', this.state.selectedFile);
+    data.append('file', files[0]);
     axios.post('api/file', data, {}).then(res => {
       console.log(res.statusText);
     });
   }
 
+  handleOpen() {
+    this.setState({
+      open: true
+    });
+  }
+
   render() {
     return (
-      <form method='post' action='#' id='#'>
-        <div className='form-group files'>
-          <label>Upload Transactions CSV </label>
-          <input type='file' onChange={this.onChangeHandler} />
-        </div>
-        <button type='button' onClick={this.onClickHandler}>
-          Upload
-        </button>
-      </form>
+      <Paper>
+        <h3>Create/Upload Transaction(s) Here</h3>
+        <Button onClick={this.handleOpen}>Upload Transactions CSV</Button>
+        <DropzoneDialog
+          open={this.state.open}
+          onSave={this.handleSave}
+          acceptedFiles={['text/csv']}
+          maxFileSize={5000000}
+          onClose={this.handleClose}
+        />
+      </Paper>
     );
   }
 }

@@ -13,7 +13,7 @@ const TxnSchema = new Schema({
   },
   category: { type: String, index: true },
   account: { type: String, index: true },
-  date: { type: Date, get: date => date.toLocaleDateString() },
+  date: { type: Date },
   transactionType: String
 });
 

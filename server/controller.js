@@ -67,8 +67,6 @@ exports.getTransactions = (req, res) => {
       let formattedResult = result.slice();
       formattedResult.map(txn => {
         txn.amount = txn.amount + 1;
-        console.log(txn);
-        console.log('');
 
         return txn;
       });

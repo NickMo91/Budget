@@ -30,7 +30,7 @@ const TransactionsList = ({ transactions }) => {
   ];
 
   function createData(description, dateStr, amount, category, account) {
-    date = new Date(dateStr.substr(0, 10)).toLocaleDateString();
+    const date = new Date(dateStr.substr(0, 10)).toLocaleDateString();
     return { description, date, amount, category, account };
   }
 

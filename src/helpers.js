@@ -1,7 +1,9 @@
 const convertData = data => {
   let dataCopy = data.slice();
   return dataCopy.map(txn => {
-    txn.date = new Date(txn.date.substr(0, 10));
+    if (typeof txn.date === 'string') {
+      txn.date = new Date(txn.date.substr(0, 10));
+    }
     return txn;
   });
 };

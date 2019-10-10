@@ -1,4 +1,5 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -27,8 +28,8 @@ const TransactionsList = ({ transactions }) => {
     }
   ];
 
-  function createData(description, dateStr, amount, category, account) {
-    const date = new Date(dateStr.substr(0, 10)).toLocaleDateString();
+  function createData(description, date, amount, category, account) {
+    date = date.toLocaleDateString();
     return { description, date, amount, category, account };
   }
 

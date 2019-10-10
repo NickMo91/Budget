@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import BubbleChart from '@weknow/react-bubble-chart-d3';
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -21,6 +22,9 @@ const BubbleContainer = props => {
   return (
     <div>
       <Paper className={classes.root}>
+        <Typography variant='h5' component='h4' gutterBottom={true}>
+          <b>Bubble View</b>
+        </Typography>
         <BubbleChart
           graph={{
             zoom: 1.1,

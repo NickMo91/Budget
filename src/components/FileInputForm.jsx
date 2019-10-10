@@ -3,6 +3,7 @@ import axios from 'axios';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import { DropzoneDialog } from 'material-ui-dropzone';
+import Typography from '@material-ui/core/Typography';
 
 class FileInputForm extends React.Component {
   constructor(props) {
@@ -46,7 +47,9 @@ class FileInputForm extends React.Component {
     const { classes } = this.props;
     return (
       <Paper>
-        <h3>Create/Upload Transaction(s) Here</h3>
+        <Typography variant='h5' component='h4' gutterBottom={true}>
+          <b>Upload Transactions</b>
+        </Typography>
         <Button onClick={this.handleOpen}>Upload Transactions CSV</Button>
         <DropzoneDialog
           open={this.state.open}

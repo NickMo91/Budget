@@ -65,7 +65,6 @@ class App extends React.Component {
           <TransactionsGraph
             amountPerCategoryAllMonths={this.state.amountPerCategoryAllMonths}
             amountPerCategoryPerMonth={this.state.amountPerCategoryPerMonth}
-            amountPerMonth={this.state.amountPerMonth}
           />
         </div>
         <BubbleContainer

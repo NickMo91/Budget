@@ -26,7 +26,7 @@ const TransactionsGraph = ({
       <Paper className={classes.root}>
         <BarGraph
           dataPerCatAllMonths={amountPerCategoryAllMonths}
-          dataPerCategory={amountPerCategoryPerMonth}
+          amountPerCategoryPerMonth={amountPerCategoryPerMonth}
           dataPerMonth={amountPerMonth}
         />
       </Paper>

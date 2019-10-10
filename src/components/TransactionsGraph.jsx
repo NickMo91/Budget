@@ -1,23 +1,14 @@
-import React, { Component } from 'react';
-import createDb from '../graph.js';
+import React from 'react';
+import Pizza from './Pizza';
+import BarGraph from './BarGraph';
 
-export class TransactionsGraph extends Component {
-	constructor(props) {
-		super(props);
-
-		this.state = {};
-	}
-
-	componentDidMount() {
-		createDb(this.props);
-	}
-
-	componentDidUpdate() {
-		createDb(this.props);
-	}
-	render() {
-		return <div className="graph" />;
-	}
-}
+const TransactionsGraph = ({ data }) => {
+	return (
+		<div>
+			<Pizza data={data} />
+			<BarGraph data={data} />
+		</div>
+	);
+};
 
 export default TransactionsGraph;

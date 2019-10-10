@@ -11,3 +11,16 @@ body {
   display: inline-flex;
   justify-content: center;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-item {
+  margin-top: 2px;
+}

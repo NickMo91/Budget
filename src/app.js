@@ -11,63 +11,70 @@ import Welcome from './components/Welcome.jsx';
 import BubbleContainer from './components/BubbleContainer.jsx';
 import helperFunctions from './helpers.js';
 import { makeStyles } from '@material-ui/core/styles';
-import TxnForm from './components/TnxForm.jsx';
-const { amountPerMonth, amountPerCategoryPerMonth, amountPerCategoryAllMonths } = helperFunctions;
+import TxnFormContainer from './components/TxnFormContainer.jsx';
+
+const {
+  amountPerMonth,
+  amountPerCategoryPerMonth,
+  amountPerCategoryAllMonths
+} = helperFunctions;
 
 class App extends React.Component {
-	constructor(props) {
-		super(props);
+  constructor(props) {
+    super(props);
 
-		this.state = {
-			allTransactions: [],
-			amountPerCategoryPerMonth: {},
-			amountPerCategoryAllMonths: {},
-			amountPerMonth: {}
-		};
+    this.state = {
+      allTransactions: [],
+      amountPerCategoryPerMonth: {},
+      amountPerCategoryAllMonths: {},
+      amountPerMonth: {}
+    };
 
-		this.fetchData = this.fetchData.bind(this);
-	}
+    this.fetchData = this.fetchData.bind(this);
+  }
 
-	componentDidMount() {
-		this.fetchData();
-	}
+  componentDidMount() {
+    this.fetchData();
+  }
 
-	fetchData() {
-		Axios.get('/api/transactions')
-			.then((response) => {
-				if (response.data === undefined || response.data.length === 0) {
-					throw new Error('did not get response data from server');
-				}
-				this.setState({
-					allTransactions: response.data,
-					amountPerCategoryPerMonth: amountPerCategoryPerMonth(response.data),
-					amountPerCategoryAllMonths: amountPerCategoryAllMonths(response.data),
-					amountPerMonth: amountPerMonth(response.data)
-				});
-			})
-			.catch((err) => console.log(err));
-	}
+  fetchData() {
+    Axios.get('/api/transactions')
+      .then(response => {
+        if (response.data === undefined || response.data.length === 0) {
+          throw new Error('did not get response data from server');
+        }
+        this.setState({
+          allTransactions: response.data,
+          amountPerCategoryPerMonth: amountPerCategoryPerMonth(response.data),
+          amountPerCategoryAllMonths: amountPerCategoryAllMonths(response.data),
+          amountPerMonth: amountPerMonth(response.data)
+        });
+      })
+      .catch(err => console.log(err));
+  }
 
-	render() {
-		return (
-			<div className="parentCont">
-				<div className="nav">
-					<NavBar />
-				</div>
-				<Welcome />
-				<FileInputForm />
-				<TransactionsList transactions={this.state.allTransactions} />
-				<div id="graph">
-					<TransactionsGraph
-						amountPerCategoryAllMonths={this.state.amountPerCategoryAllMonths}
-						amountPerCategoryPerMonth={this.state.amountPerCategoryPerMonth}
-					/>
-				</div>
-				<BubbleContainer amountPerCategoryAllMonths={this.state.amountPerCategoryAllMonths} />
-				<TxnForm fetchData={this.fetchData} />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div className='parentCont'>
+        <div className='nav'>
+          <NavBar />
+        </div>
+        <Welcome />
+        <TxnFormContainer fetchData={this.fetchData} />
+        <FileInputForm />
+        <TransactionsList transactions={this.state.allTransactions} />
+        <div id='graph'>
+          <TransactionsGraph
+            amountPerCategoryAllMonths={this.state.amountPerCategoryAllMonths}
+            amountPerCategoryPerMonth={this.state.amountPerCategoryPerMonth}
+          />
+        </div>
+        <BubbleContainer
+          amountPerCategoryAllMonths={this.state.amountPerCategoryAllMonths}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;

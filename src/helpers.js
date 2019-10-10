@@ -1,4 +1,5 @@
 const convertData = data => {
+  if (!data) return data;
   let dataCopy = data.slice();
   return dataCopy.map(txn => {
     if (typeof txn.date === 'string') {
@@ -37,6 +38,7 @@ function addDollars(a, b) {
 
 const helperFunctions = {
   amountPerMonth: function(data) {
+    if (!data) return data;
     data = convertData(data);
     let groupedData = {};
     for (let i = 0; i < data.length; i++) {
@@ -52,6 +54,7 @@ const helperFunctions = {
   },
 
   amountPerCategoryPerMonth: function(data) {
+    if (!data) return data;
     data = convertData(data);
     let groupedData = {};
     for (let i = 0; i < data.length; i++) {
@@ -74,6 +77,7 @@ const helperFunctions = {
   },
 
   amountPerCategoryAllMonths: function(data) {
+    if (!data) return data;
     data = convertData(data);
     let groupedData = {};
     for (let i = 0; i < data.length; i++) {

@@ -2,11 +2,15 @@ import React from 'react';
 import Pizza from './Pizza';
 import BarGraph from './BarGraph';
 
-const TransactionsGraph = ({ data }) => {
+const TransactionsGraph = ({ amountPerCategoryAllMonths, amountPerCategoryPerMonth, amountPerMonth }) => {
 	return (
 		<div>
-			<Pizza data={data} />
-			<BarGraph data={data} />
+			<Pizza data={amountPerCategoryAllMonths} />
+			<BarGraph
+				dataPerCatAllMonths={amountPerCategoryAllMonths}
+				dataPerCategory={amountPerCategoryPerMonth}
+				dataPerMonth={amountPerMonth}
+			/>
 		</div>
 	);
 };

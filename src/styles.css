@@ -2,3 +2,8 @@ body {
 	/* color: #264f96; */
 	background-color: #bad4ff;
 }
+
+.nav {
+	display: inline-flex;
+	justify-content: center;
+}

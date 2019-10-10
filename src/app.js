@@ -4,6 +4,7 @@ import TransactionsList from './components/TransactionsList.jsx';
 import TransactionsGraph from './components/TransactionsGraph.jsx';
 import FileInputForm from './components/FileInputForm.jsx';
 import data from './data.js';
+import Box from '@material-ui/core/Box';
 
 class App extends React.Component {
 	constructor(props) {
@@ -16,12 +17,15 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div className="parentCont">
 				<NavBar />
-				<svg />
-				<h1>Hello World</h1>
-				<TransactionsList transactions={this.state.data} />
-				{/* <TransactionsGraph data={this.state.data} /> */}
+				<h1 className="header">Super Budget</h1>
+				<div>
+					<TransactionsList transactions={this.state.data} />
+				</div>
+				<div>
+					<TransactionsGraph data={this.state.data} />
+				</div>
 				<FileInputForm />
 			</div>
 		);

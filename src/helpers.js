@@ -1,8 +1,12 @@
-const convertData = data =>
-  data.map(txn => {
-    txn.date = new Date(txn.date.substr(0, 10));
+const convertData = data => {
+  let dataCopy = data.slice();
+  return dataCopy.map(txn => {
+    if (typeof txn.date === 'string') {
+      txn.date = new Date(txn.date.substr(0, 10));
+    }
     return txn;
   });
+};
 
 const monthNames = [
   'Jan',

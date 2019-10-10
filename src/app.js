@@ -8,6 +8,7 @@ import Axios from 'axios';
 import { BarChart } from 'react-d3-components';
 import Box from '@material-ui/core/Box';
 import Welcome from './components/Welcome.jsx';
+import BubbleContainer from './components/BubbleContainer.jsx';
 import helperFunctions from './helpers.js';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -67,6 +68,9 @@ class App extends React.Component {
             amountPerMonth={this.state.amountPerMonth}
           />
         </div>
+        <BubbleContainer
+          amountPerCategoryAllMonths={this.state.amountPerCategoryAllMonths}
+        />
       </div>
     );
   }

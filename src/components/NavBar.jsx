@@ -49,7 +49,7 @@ const NavBar = () => {
 					icon={<HomeIcon fontSize="small" />}
 					onClick={handleClick}
 				/>
-				<StyledBreadcrumb component="a" href="#" label="All Transactions" /*onClick={handleClick}*/ />
+				<StyledBreadcrumb component="a" href="#graph" label="All Transactions" /*onClick={handleClick}*/ />
 				<StyledBreadcrumb
 					label="Transactions Graph"
 					deleteIcon={<ExpandMoreIcon />}

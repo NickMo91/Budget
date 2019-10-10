@@ -6,6 +6,7 @@ import FileInputForm from './components/FileInputForm.jsx';
 import data from './data.js';
 import Axios from 'axios';
 import { BarChart } from 'react-d3-components';
+import Box from '@material-ui/core/Box';
 import helperFunctions from './helpers.js';
 const {
   amountPerMonth,
@@ -47,12 +48,18 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='parentCont'>
         <NavBar />
-        <svg />
-        <h1>Hello World</h1>
-        <TransactionsList transactions={this.state.allTransactions} />
-        {/* <TransactionsGraph data={this.state.data} /> */}
+        <h1 className='header'>Super Budget</h1>
+        <div>
+          <TransactionsList transactions={this.state.allTransactions} />
+        </div>
+        <div>
+          <TransactionsGraph
+            amountPerCategoryAllMonths={this.state.amountPerCategoryAllMonths}
+            amountPerCategoryPerMonth={this.state.amountPerCategoryPerMonth}
+          />
+        </div>
         <FileInputForm />
       </div>
     );

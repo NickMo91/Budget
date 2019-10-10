@@ -3,10 +3,7 @@ import NavBar from './components/NavBar.jsx';
 import TransactionsList from './components/TransactionsList.jsx';
 import TransactionsGraph from './components/TransactionsGraph.jsx';
 import FileInputForm from './components/FileInputForm.jsx';
-import data from './data.js';
 import Axios from 'axios';
-import { BarChart } from 'react-d3-components';
-import Box from '@material-ui/core/Box';
 import helperFunctions from './helpers.js';
 const { amountPerMonth, amountPerCategoryPerMonth, amountPerCategoryAllMonths } = helperFunctions;
 

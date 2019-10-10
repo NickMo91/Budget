@@ -43,6 +43,7 @@ class FileInputForm extends React.Component {
   }
 
   render() {
+    const { classes } = this.props;
     return (
       <Paper>
         <h3>Create/Upload Transaction(s) Here</h3>

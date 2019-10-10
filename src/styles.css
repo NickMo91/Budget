@@ -1,9 +1,13 @@
 body {
-	/* color: #264f96; */
-	background-color: #bad4ff;
+  /* color: #264f96; */
+  background-color: #bad4ff;
+}
+
+.header {
+  margin: 20px 10px 10px 10px;
 }
 
 .nav {
-	display: inline-flex;
-	justify-content: center;
+  display: inline-flex;
+  justify-content: center;
 }
